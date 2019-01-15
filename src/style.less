@@ -1,10 +1,122 @@
- 
-  /* Basics */
+/* LESS variables 
+------------------------------------*/
+@mainBgColor: #F5E7D8;
+@pointColor: #00CC99;
+@grey: #D9DBE0;
+@white: #fff;
+@black: #000;
+@baseFontSize: 16px;
+
+/* Global styles 
+------------------------------------*/
+body {
+  background-color: @mainBgColor;
+}
+
+h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: .4em 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
-  color: tomato;
+  color: @black;
   &:hover {
-    color: red;
+    color: @pointColor;
   }
 }
 
+.container-fluid.no-padding, .container.no-padding {
+  
+  padding: 0;
+}
+
+/* Header
+------------------------------------*/
+small {
+  color: lighten(@black, 50%);
+}
+
+.intro {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 700px;
+}
+
+/* Navigation
+------------------------------------*/
+nav.no-padding {
+    padding: 0;
+  }
+
+/* Featured Project
+------------------------------------*/
+
+section {
+  background-color: @white;
+  padding-top: 80px;
+}
+
+.section {
+  padding: 0;
+}
+
+/* Skills
+------------------------------------*/
+.skills {
+  padding: 0 0 80px 0;
+}
+
+/* About
+------------------------------------*/
+
+/* Projects
+------------------------------------*/
+
+/* Footer 
+------------------------------------*/
+footer {
+  background-color:@black;
+  color: @white;
+}
+
+.footer {
+  padding: 6em 0 2em 0;
+}
+
+.group {
+  padding-bottom: 4em;
+}
+
+footer a {
+  text-decoration: none;
+  color: @white;
+  &:hover {
+    color: @pointColor;
+  }
+}
+
+.copyright {
+  display: block;
+  color: darken(@white, 20%);
+}
+
+/* Media Queries
+------------------------------------*/
