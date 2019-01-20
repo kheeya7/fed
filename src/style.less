@@ -1,27 +1,44 @@
-/* LESS variables 
+@import "less/colors";
+@import "less/header";
+@import "less/navigation";
+@import "less/about";
+@import "less/projects";
+@import "less/featured";
+@import "less/skills";
+@import "less/footer";
+
+/* Variables 
 ------------------------------------*/
-@mainBgColor: #F5E7D8;
-@pointColor: #00CC99;
-@grey: #D9DBE0;
-@white: #fff;
-@black: #000;
 @baseFontSize: 16px;
 
 /* Global styles 
 ------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: @mainBgColor;
+  font-family: 'Hind', Helvetica, Arial, sans-serif;
+}
+
+.page {
+  border-top: 2px solid @pointColor;
 }
 
 h1 {
   font-size: 2.4em;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 600;
   margin: .4em 0;
+  color: @grey;
 }
 
 h3 {
@@ -34,6 +51,10 @@ h4 {
   font-weight: 600;
 }
 
+p {
+  font-size: 1.1em;
+}
+
 a {
   text-decoration: none;
   color: @black;
@@ -42,81 +63,37 @@ a {
   }
 }
 
-.container-fluid.no-padding, .container.no-padding {
-  
-  padding: 0;
+.no-hor-padding { 
+  padding-left: 0;
+  padding-right: 0;
 }
 
-/* Header
+.h-300 {
+  height: 300px;
+}
+
+.pad-5 {
+  padding: 5px;
+}
+
+/* Overwrite Bootstrap 4 
 ------------------------------------*/
-small {
-  color: lighten(@black, 50%);
-}
-
-.intro {
-  position: relative;
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 700px;
-}
-
-/* Navigation
-------------------------------------*/
-nav.no-padding {
-    padding: 0;
-  }
-
-/* Featured Project
-------------------------------------*/
-
-section {
-  background-color: @white;
-  padding-top: 80px;
-}
-
-.section {
-  padding: 0;
-}
-
-/* Skills
-------------------------------------*/
-.skills {
-  padding: 0 0 80px 0;
-}
-
-/* About
-------------------------------------*/
-
-/* Projects
-------------------------------------*/
-
-/* Footer 
-------------------------------------*/
-footer {
-  background-color:@black;
-  color: @white;
-}
-
-.footer {
-  padding: 6em 0 2em 0;
-}
-
-.group {
-  padding-bottom: 4em;
-}
-
-footer a {
-  text-decoration: none;
-  color: @white;
+.btn-info {
+  background-color: @pointColor;
+  margin-top: 3em;
+  padding: 1em 1.5em;
+  border: none;
+  border-radius: 3em;
   &:hover {
-    color: @pointColor;
+    background-color: darken(@pointColor, 8%);
   }
 }
 
-.copyright {
-  display: block;
-  color: darken(@white, 20%);
-}
 
 /* Media Queries
 ------------------------------------*/
+@media (min-width: 1000px) {
+  .h-400 {
+    height: 400px;
+  }
+}
