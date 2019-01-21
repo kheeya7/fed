@@ -18,6 +18,7 @@ section {
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
    
     &:hover .overlay{
       opacity: 1;
@@ -26,8 +27,8 @@ section {
 
 .project-card{
   display: block;
-  max-width: 300px;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
 }
   
   .overlay {
@@ -36,10 +37,11 @@ section {
     background: rgba(0, 0, 0, 0.7); /* Black see-through */
     color: #f1f1f1; 
     width: 100%;
+    max-height: 100%;
     transition: .5s ease;
     opacity:0;
     color: white;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 1.2em;
+    padding: 1.2em;
     text-align: center;
   }
