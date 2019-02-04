@@ -1,9 +1,9 @@
 @import "less/colors";
-@import "less/header";
-@import "less/navigation";
-@import "less/featured";
-@import "less/skills";
-@import "less/footer";
+@import "../src/header/index.less";
+@import "../src/navigation/index.less";
+@import "../src/featured/index.less";
+@import "../src/skills/index.less";
+@import "../src/footer/index.less";
 
 /* Variables 
 ------------------------------------*/
@@ -59,6 +59,11 @@ a {
   &:hover {
     color: @pointColor;
   }
+}
+
+section {
+  background-color: @white;
+  padding-top: 40px;
 }
 
 .no-hor-padding { 
