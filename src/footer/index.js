@@ -51,7 +51,7 @@ export default class FooterView extends React.Component {
                         </div>
                     </div>
                     <small className="text-center copyright">Copyright&copy;2019
-            <a href="/">Kate Sohng</a>
+            <a href="/"> Kate Sohng</a>
                     </small>
                 </div>
             </div>
