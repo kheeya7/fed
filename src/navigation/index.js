@@ -17,9 +17,9 @@ export default class NavView extends React.Component {
                     </button>
                     <div className="collapse navbar-collapse" id="togglerNav">
                         <div className="navbar-nav ml-auto font-weight-bold">
-                            <a className="nav-item nav-link active" href="#">About</a>
-                            <a className="nav-item nav-link" href="#">Projects</a>
-                            <a className="nav-item nav-link" href="#">Blog</a>
+                            <a className="nav-item nav-link" onClick={() => this.props.onSelectedNavClicked('about')}>About</a>
+                            <a className="nav-item nav-link" onClick={() => this.props.onSelectedNavClicked('projects')}>Projects</a>
+                            <a className="nav-item nav-link" href="http://katesohng.com/blog" target="_blank">Blog</a>
                             <a className="nav-item nav-link" href="#">Contact</a>
                         </div>
                     </div>
