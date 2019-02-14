@@ -5,7 +5,8 @@ import FeaturedView from '../src/featured'
 import SkillsView from '../src/skills'
 import FooterView from '../src/footer'
 import AboutView from '../src/about'
-import ProjectsView from '../src/projects'
+import SeparatorAbout from '../src/shared-components/separator-about'
+import SeparatorContact from '../src/shared-components/separator-contact'
 
 class App extends React.Component {
     constructor(props) {
@@ -32,7 +33,8 @@ class App extends React.Component {
                     <HeaderView />
                     <FeaturedView />
                     <SkillsView />
-                    <FooterView />
+                    <SeparatorAbout onSelectedNavClicked={this.onSelectedNavClicked} />
+                    <FooterView onSelectedNavClicked={this.onSelectedNavClicked} />
                 </div>
             )
         } else if (this.state.selectedNav === 'about') {
@@ -40,18 +42,20 @@ class App extends React.Component {
                 <div className="page bg-main">
                     <NavView onSelectedNavClicked={this.onSelectedNavClicked} />
                     <AboutView />
-                    <FooterView />
-                </div>
-            )
-        } else if (this.state.selectedNav === 'projects') {
-            return (
-                <div>
-                    <NavView onSelectedNavClicked={this.onSelectedNavClicked} />
-                    <ProjectsView />
-                    <FooterView />
+                    <SeparatorContact />
+                    <FooterView onSelectedNavClicked={this.onSelectedNavClicked} />
                 </div>
             )
         }
+        // else if (this.state.selectedNav === 'projects') {
+        //     return (
+        //         <div>
+        //             <NavView onSelectedNavClicked={this.onSelectedNavClicked} />
+        //             <ProjectsView />
+        //             <FooterView onSelectedNavClicked={this.onSelectedNavClicked} />
+        //         </div>
+        //     )
+        // }
     }
 }
 
