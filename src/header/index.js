@@ -9,7 +9,8 @@ export default class HeaderView extends React.Component {
                         <div>
                             <img src="images/kate-logo-black-2019.png" alt="Kate sohng logo" className="kate-logo" />
                         </div>
-                        <h1>Front-End Developer | UX Designer in Seattle</h1>
+                        <h1>Front-End Developer<br />
+                            UX Designer in Seattle</h1>
                         <p>Producing responsive, accessibile rich websites for exceptional user experience</p>
                         <a href="/" className="btn btn-info text-center text-uppercase">View Portfolio</a>
                     </div>
