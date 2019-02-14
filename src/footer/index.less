@@ -2,30 +2,41 @@
 ------------------------------------*/
 
 .footer {
-    background-color:@black;
-    color: @white;
-  }
+  background-color:@black;
+  color: @white;
+}
+
+.footer-container {
+  padding: 4em 0 3em 0;
+}
   
-  .footer h2 {
-    color: @black;
-  }
-  .footer-container {
-    padding: 6em 0 2em 0;
-  }
+.group {
+  padding-bottom: 3em;
+}
   
-  .group {
-    padding-bottom: 3em;
-  }
-  
-  .footer a {
-    text-decoration: none;
-    color: @white;
+.footer a {
+  text-decoration: none;
+  color: @white;
     &:hover {
       color: @pointColor;
     }
-  }
+}
   
-  .copyright {
-    display: block;
-    color: darken(@white, 20%);
+.footer-intro {
+  margin-bottom: 2em;
+}
+
+.copyright {
+  display: block;
+  color: darken(@white, 20%);
+}
+
+.footer ul{
+  li {
+    padding : 6px 12px 6px 0;
   }
+  a {
+    padding: 0;
+  }
+} 
+    

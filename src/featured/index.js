@@ -6,7 +6,7 @@ export default class FeaturedView extends React.Component {
             <section>
                 <div className="container section-container">
                     <div className="row">
-                        <h2 className="col-sm-6">Featured Project</h2>
+                        <h2 className="col-sm-6" id="portfolio">Featured Project</h2>
                         <p className="col-sm-6 text-right">
                             <a href="#">
                                 <small className="font-weight-bold">View All</small>
