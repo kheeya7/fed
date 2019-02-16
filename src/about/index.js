@@ -25,7 +25,7 @@ export default class AboutView extends React.Component {
                     <div className="container profile">
                         <div className="row">
                             <div className="col-lg-2 offset-lg-2 col-12"><img width={150} alt="a photo of Kate Sohng" src={profilePhoto} /></div>
-                            <div className="col-lg-6 col-12 text">I am a Front-end Developer, a graduate from Interactive Media Design of the University of Washington. I have 2 years commercial experience providing graphic design and front-end development in South Korea. Since then, I have been focusing on producing high-quality responsive websites and exceptional user experience.</div>
+                            <div className="col-lg-6 col-12 text">I am a front-end developer, a graduate from Interactive Media Design of the University of Washington. I have 2 years commercial experience providing graphic design and front-end development in South Korea. Since then, I have been focusing on producing high-quality responsive websites and exceptional user experience.</div>
                         </div>
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2 text">
@@ -51,7 +51,7 @@ export default class AboutView extends React.Component {
                         </div>
                         <div className="row">
                             <div className="col-lg-8 offset-lg-2 text">
-                                <p>I believe it is important to understand both design and development as a front-end developer to create a more successful user-centered design. I have worked as a graphic designer at an e-commerce company in South Korea for a year and created mockups and prototypes during the course of study from the Interactive Media Design.</p>
+                                <p>I believe it is important to understand both design and development as a front-end developer to create a more successful user-centered design. I have worked as a graphic designer at an e-commerce company in South Korea for a year, and I have taken designs from mockups to implement during the course of study at the Interactive Media Design.</p>
                                 <div className="logo">
                                     <img width={53} alt="photoshop logo" src={photoshopLogo} />
                                     <img width={53} alt="illustrator logo" src={illustratorLogo} />
