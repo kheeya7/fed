@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default class NavView extends React.Component {
     render() {
@@ -17,8 +18,8 @@ export default class NavView extends React.Component {
                     </button>
                     <div className="collapse navbar-collapse" id="togglerNav">
                         <div className="navbar-nav ml-auto font-weight-bold">
-                            <a className="nav-item nav-link" onClick={() => this.props.onSelectedNavClicked('about')}>About</a>
-                            <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
+                            <Link to="/about" className="nav-item nav-link"> About </Link>
+                            <Link to="/" className="nav-item nav-link"> Portfolio </Link>
                             <a className="nav-item nav-link" href="http://katesohng.com/blog" target="_blank">Blog</a>
                             <a className="nav-item nav-link" href="#">Contact</a>
                         </div>

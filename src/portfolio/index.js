@@ -4,8 +4,8 @@ export default class PortfolioView extends React.Component {
     render() {
         return (
             <section className="pt-0">
-                <div className="container-fluid section-container">
-                    <h2 className="col-sm-6 hidden" id="portfolio">Projects</h2>
+                <div className="container-fluid section-container" id="portfolio">
+                    <h2 className="col-sm-6 hidden">Projects</h2>
                     <div className="row pb-0">
                         <div className="col-sm-4 card-display">
                             <figure className="bg-beige h-300 h-400 mb-0">
