@@ -1,7 +1,7 @@
 import React from 'react'
 import HeaderView from '../src/header'
 import NavView from '../src/navigation'
-import FeaturedView from '../src/featured'
+import PortfolioView from '../src/portfolio'
 import SkillsView from '../src/skills'
 import FooterView from '../src/footer'
 import AboutView from '../src/about'
@@ -31,7 +31,7 @@ class App extends React.Component {
                 <div className="page bg-main">
                     <NavView onSelectedNavClicked={this.onSelectedNavClicked} />
                     <HeaderView />
-                    <FeaturedView />
+                    <PortfolioView />
                     <SkillsView />
                     <SeparatorAbout onSelectedNavClicked={this.onSelectedNavClicked} />
                     <FooterView onSelectedNavClicked={this.onSelectedNavClicked} />

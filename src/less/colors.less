@@ -3,10 +3,12 @@
 @grey: #D9DBE0;
 @white: #fff;
 @black: #000;
-@pink: #F4DCDC;
+@pink: #f5dbdd;
 @purple: #DDA0DD; 
 @unify: #5BC9D6;
-@blue: #87CEEB;
+@blue: #ddeef6;
+@beige: #e8ded1;
+@yellow: #ebdda1; 
 
 
 /* Background Colors for Tiles
@@ -18,14 +20,21 @@
     background-color: lighten(@black, 30%);
 }
 .bg-pink {
-    background-color: @pink;
+    background-color: darken(@pink, 7%);
 }
 .bg-unify {
-    background-color: @unify;
+    background-color: lighten(@unify, 17%);
 }
 .bg-purple {
-    background-color: @purple;
+    background-color: lighten(@purple, 8%);
 }
 .bg-blue {
-    background-color: @blue;
+    background-color: darken(@blue, 10%);
+}
+.bg-beige {
+    background-color: darken(@beige, 5%);
+}
+
+.bg-yellow {
+    background-color: @yellow;
 }
