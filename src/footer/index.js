@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default class FooterView extends React.Component {
     render() {
@@ -28,8 +29,9 @@ export default class FooterView extends React.Component {
                         <div className="col-6 col-sm-6 col-md-3 col-md-2 mb-xs-40">
                             <h4 className="mb-xs-20 mb-sm-40">Menu</h4>
                             <ul className="list-unstyled">
-                                <li className="list-item"><a onClick={() => this.props.onSelectedNavClicked('about')}>About</a></li>
-                                <li className="list-item"><a href="#portfolio">Portfolio</a></li>
+                                <li className="list-item"><Link to="/">Home</Link></li>
+                                <li className="list-item"><Link to="/about">About</Link></li>
+                                <li className="list-item"><Link to="/">Portfolio</Link></li>
                                 <li className="list-item"><a href="http://katesohng.com/blog" target="_blank">Blog</a></li>
                             </ul>
                         </div>
