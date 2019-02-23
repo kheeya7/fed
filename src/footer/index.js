@@ -21,7 +21,7 @@ export default class FooterView extends React.Component {
                                         <li>Front-end developer</li>
                                         <li>Available February 2019</li>
                                         <li><a href="mailto:kheeya7@hotmail.com">Get in touch ></a></li>
-                                        <li>Download resume ></li>
+                                        <li><a href="katesohng-resume-2019.pdf" title="Download Resume" download="Katesohng-resume-2019"> Download resume ></a></li>
                                     </ul>
                                 </div>
                             </div>
