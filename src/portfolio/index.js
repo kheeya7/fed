@@ -7,7 +7,7 @@ export default class PortfolioView extends React.Component {
                 <div className="container-fluid section-container" id="portfolio">
                     <h2 className="col-sm-6 hidden">Projects</h2>
                     <div className="row pb-0">
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-beige h-300 h-400 mb-0">
                                 <div className="card-container">
                                     {/* <img src="images/unify-card-design-simple.png" alt="project unify" className="project-card-img" /> */}
@@ -15,7 +15,7 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </div>
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-yellow h-300 h-400 mb-0">
                                 <div className="card-container">
                                     {/* <img src="images/lala-card-design.png" alt="react project project customizer" className="project-card-img" /> */}
@@ -23,7 +23,7 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </div>
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-unify h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <img src="images/unify-card-design-simple.png" alt="project unify" className="project-card-img" />
@@ -31,9 +31,7 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-purple h-300 h-400 mb-0">
                                 <div className="card-container">
                                     {/* <img src="images/ecs-card-design-simple.png" alt="project ecs" className="project-card-img" /> */}
@@ -41,7 +39,7 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </div>
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-blue h-300 h-400 mb-0">
                                 <div className="card-container">
                                     {/* <img src="images/stronger-card-design-simple.png" alt="project stronger" className="project-card-img" /> */}
@@ -49,7 +47,7 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </div>
-                        <div className="col-sm-4 card-display">
+                        <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-pink h-300 h-400 mb-0">
                                 <div className="card-container">
                                     {/* <img src="images/pocket-card-design-simple.png" alt="project pocket" className="project-card-img" /> */}
@@ -58,7 +56,10 @@ export default class PortfolioView extends React.Component {
                             </figure>
                         </div>
                     </div>
+
+
                 </div>
+
             </section>
         )
     }
