@@ -12,21 +12,20 @@ export default class FooterView extends React.Component {
                             <div className="row">
                                 <div className="col-5">
                                     <ul className="list-unstyled">
-                                        <li> Image placeholder </li>
-                                        <li> text placeholder </li>
+                                        <li>Front-end developer</li>
+                                        <li>UX | UI designer</li>
+                                        <li>Available March 2019</li>
                                     </ul>
                                 </div>
                                 <div className="col-7">
                                     <ul className="list-unstyled">
-                                        <li>Front-end developer</li>
-                                        <li>Available February 2019</li>
                                         <li><a href="mailto:kheeya7@hotmail.com">Get in touch ></a></li>
                                         <li><a href="katesohng-resume-2019.pdf" title="Download Resume" download="Katesohng-resume-2019"> Download resume ></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-6 col-md-3 col-md-2 mb-xs-40">
+                        <div className="col-5 col-sm-5 col-md-3 col-md-2 mb-xs-40">
                             <h4 className="mb-xs-20 mb-sm-40">Menu</h4>
                             <ul className="list-unstyled">
                                 <li className="list-item"><Link to="/">Home</Link></li>
@@ -35,7 +34,7 @@ export default class FooterView extends React.Component {
                                 <li className="list-item"><a href="http://katesohng.com/blog" target="_blank">Blog</a></li>
                             </ul>
                         </div>
-                        <div className="col-6 col-sm-6 col-md-3 col-md-2 mb-xs-40">
+                        <div className="col-7 col-sm-7 col-md-3 col-md-2 mb-xs-40">
                             <h4 className="mb-xs-20 mb-sm-40">Social</h4>
                             <ul className="list-unstyled">
                                 <li className="list-item"><a href="https://github.com/kheeya7" className="btn btn-social btn-github btn-simple" target="_blank"><i className="fa fa-github"></i> GitHub</a></li>
