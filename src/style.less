@@ -22,6 +22,7 @@ html {
 }
 
 body {
+  min-width: 375px;
   font-family: 'Hind', Helvetica, Arial, sans-serif;
 }
 
@@ -30,8 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 2.8em;
-  font-weight: 800;
+  font-size: 2.4em;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h4 {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 a {
@@ -86,11 +86,6 @@ section {
   padding: 5px;
 }
 
-.kate-logo {
-  max-width: 70px;
-  margin-bottom: 3em;
-}
-
 /* Overwrite Bootstrap 4 
 ------------------------------------*/
 .btn-info {
@@ -110,5 +105,15 @@ section {
 @media (min-width: 1000px) {
   .h-400 {
     height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  .btn-info {
+    margin-top: 2em;
+    padding: .8em 1.3em;
   }
 }
