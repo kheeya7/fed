@@ -22,8 +22,7 @@ export default class SkillsView extends React.Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-6 col-md-12 mb-xs-20 mb-md-40">
                                     <h3>User Experience Design</h3>
-                                    <p> I believe it is important to understand both design and development as a front-end developer to create a more successful user-centered design. I have studied how to conduct research-based UX design considering usability heuristics and empathy.
-</p>
+                                    <p> I believe it is important to understand both design and development as a front-end developer to create a more successful user-centered design. I have studied how to conduct research-based UX design considering usability heuristics and empathy.</p>
                                 </div>
                                 <div className="col-xs-12 col-sm-6 col-md-12 mb-xs-20 mb-md-40">
                                     <h3>Project Management</h3>
