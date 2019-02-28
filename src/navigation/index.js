@@ -10,7 +10,7 @@ export default class NavView extends React.Component {
                         <a className="navbar-brand d-sm-inline-block font-weight-bold" href="/">
                             <div className="logo">
                                 <h1>Kate Sohng</h1>
-                                <h2 className="navbar-text d-none d-xl-inline-block">
+                                <h2 className="navbar-text">
                                     Front-End Developer | UX Designer
                             </h2>
                             </div>
