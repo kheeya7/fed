@@ -1,10 +1,7 @@
 import React from 'react'
 import { Row, Col, Image } from 'react-bootstrap'
-import UnifyProto01 from '../unify/unify-proto-01.png'
-import UnifyProto02 from '../unify/unify-proto-02.png'
-import UnifyProto03 from '../unify/unify-proto-03.png'
 
-export default class UnifyHeaderImage extends React.Component {
+export class UnifyHeaderImage extends React.Component {
     render() {
         const UnifyHeaderImageStyle = {
             maxWidth: "70%",
@@ -17,15 +14,15 @@ export default class UnifyHeaderImage extends React.Component {
         }
         return (
             <Row>
-                <col style={UnifyHeaderColStyle} xs={4} md={4}>
-                    <Image style={UnifyHeaderImageStyle} src={UnifyProto01} />
-                </col>
-                <col style={UnifyHeaderColStyle} xs={4} md={4}>
-                    <Image style={UnifyHeaderImageStyle} src={UnifyProto02} />
-                </col>
-                <col style={UnifyHeaderColStyle} xs={4} md={4}>
-                    <Image style={UnifyHeaderImageStyle} src={UnifyProto03} />
-                </col>
+                <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+                    <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-01.png" />
+                </Col>
+                <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+                    <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-02.png" />
+                </Col>
+                <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+                    <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-03.png" />
+                </Col>
             </Row>
         )
     }

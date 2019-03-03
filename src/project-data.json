@@ -1,0 +1,76 @@
+[
+    {
+        "id": "unify",
+        "tags": [
+            "User Experience",
+            "iOS Development ",
+            "Social Justice",
+            "Graphic Design",
+            "UX Research",
+            "Emphathy"
+        ],
+        "title": "Unify iOS Application",
+        "imageUrl": "./assets/card-unify-ios.png"
+    },
+    {
+        "id": "project5",
+        "tags": [
+            "Photoshop",
+            "HTML",
+            "CSS",
+            "JavaSctipt",
+            "Graphic Design",
+            "Web Design"
+        ],
+        "title": "Web Designer",
+        "imageUrl": "./assets/card-unify-research.png"
+    },
+    {
+        "id": "ecs",
+        "tags": [
+            "User Experience",
+            "Prototyping",
+            "Graphic Design",
+            "UX Research",
+            "Emphathy"
+        ],
+        "title": "Electronic Catalog System",
+        "imageUrl": "./assets/card-ecs.png"
+    },
+    {
+        "id": "pocket",
+        "tags": [
+            "Photoshop",
+            "Graphic Design",
+            "Illustrator"
+        ],
+        "title": "Graphic Designer",
+        "imageUrl": "./assets/card-pocket-temp.png"
+    },
+    {
+        "id": "project-yuri",
+        "tags": [
+            "Photoshop",
+            "HTML",
+            "CSS",
+            "JavaSctipt",
+            "Graphic Design",
+            "Web Design"
+        ],
+        "title": "Web Designer",
+        "imageUrl": "./assets/card-yuri.png"
+    },
+    {
+        "id": "project3",
+        "tags": [
+            "Photoshop",
+            "Graphic Design",
+            "Illustrator",
+            "Graphic Design",
+            "UX Research",
+            "Emphathy"
+        ],
+        "title": "Graphic Designer",
+        "imageUrl": "./assets/card-chimera.png"
+    }
+]
