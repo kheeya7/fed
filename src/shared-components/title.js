@@ -3,14 +3,8 @@ import PropTypes from 'prop-types'
 
 export default class Title extends React.Component {
     render() {
-        const titleStyle = {
-            margin: "12px",
-            fontSize: "58px",
-            textAlign: "center",
-        }
-
         return (
-            <h2 style={titleStyle}>
+            <h2 className="title">
                 {this.props.text}
             </h2>
         )
