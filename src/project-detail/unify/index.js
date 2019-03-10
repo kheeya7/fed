@@ -9,6 +9,8 @@ import {
 } from '../../shared-components/'
 import { Row, Col, Image } from 'react-bootstrap'
 import { UnifyHeaderImage } from './header-image'
+import ContentCarousel from '../../shared-components/content-carousel'
+import { ProjectSummary } from '../../shared-components/project-summary'
 
 export default class UnifyView extends React.Component {
     render() {
@@ -24,7 +26,12 @@ export default class UnifyView extends React.Component {
                 </div>
                 <div className="project-detail-body">
                     <SectionTitle text="Project Overview" />
-                    <Paragraph text="Unify team presents the high-fidelity prototype of the iOS application for FemTechNet members and people who want to share information about women in/and technology. This annotated portfolio shows the process of the application design through research from the ethnography interview, defining problems, research through design, and viable solutions with different types of prototypes." />
+                    <Row>
+                        <Col xs={7} md={7}>
+                            <Paragraph text="Unify team presents the high-fidelity prototype of the iOS application for FemTechNet members and people who want to share information about women in/and technology. This annotated portfolio shows the process of the application design through research from the ethnography interview, defining problems, research through design, and viable solutions with different types of prototypes." />
+                        </Col>
+
+                    </Row>
                     <SectionTitle text="Finding Problems" />
                     <Row>
                         <Col xs={7} md={7}>
@@ -37,14 +44,7 @@ export default class UnifyView extends React.Component {
                     <SectionTitle text="Research" />
                     <SectionSubtitle text="Hunt Statement" />
                     <Paragraph text="We are going to figure out how all the communities of FemTechNet communicate with each other so that we can identify the key factors that enhance or hinder the interaction within communities." />
-                    <SectionSubtitle text="Personas" />
-                    <Paragraph text="The archetype of this persona is an educator and she represents a group of people who care to educate people." />
-                    <Row>
-                        <Col>
-                            <Image src="/images/unify-persona.png" />
-                        </Col>
-                    </Row>
-                    <SectionSubtitle text="Data and Affordance" />
+                    <ContentCarousel />
                     <SectionTitle text="Solutions" />
                     <Paragraph text="Unify team suggests two types of solutions as the team have developed both approaches to have more chances for the ideal solution." />            <SectionSubtitle text="Integrating Communication Services to Reduce the Complexity" />
                     <Row>
@@ -73,6 +73,9 @@ export default class UnifyView extends React.Component {
                     </Row>
                     <SectionTitle text="Artifacts" />
                     <Row>
+                        <Col xs={12} md={12}>
+                            External Links to Kate Sohng' blog
+                        </Col>
                         <Col xs={12} md={12}>
                             <a href="http://katesohng.com/blog/index.php/2017/10/30/prfaq/" target="_blank">✻ PRFAQ ✻</a>
                         </Col>
