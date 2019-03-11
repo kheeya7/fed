@@ -12,6 +12,30 @@ import { UnifyHeaderImage } from './header-image'
 import ContentCarousel from '../../shared-components/content-carousel'
 import { ProjectSummary } from '../../shared-components/project-summary'
 
+const summaryData = [
+    {
+        imagePath: '/images/icon-person.png',
+        title: 'Role',
+        description: 'UX Researcher | UI Designer',
+    },
+    {
+        imagePath: '/images/icon-mobile.png',
+        title: 'Type',
+        description: 'iOS Mobile App | Group Project  '
+    },
+    {
+        imagePath: '/images/icon-responsibility.png',
+        title: 'Responsibilities',
+        description: 'Defining users & problems UI Design'
+    },
+    {
+        imagePath: '/images/icon-clock.png',
+        title: 'Duration',
+        description: '10 weeks'
+    }
+]
+
+
 export default class UnifyView extends React.Component {
     render() {
         return (
@@ -30,7 +54,9 @@ export default class UnifyView extends React.Component {
                         <Col xs={7} md={7}>
                             <Paragraph text="Unify team presents the high-fidelity prototype of the iOS application for FemTechNet members and people who want to share information about women in/and technology. This annotated portfolio shows the process of the application design through research from the ethnography interview, defining problems, research through design, and viable solutions with different types of prototypes." />
                         </Col>
-
+                        <Col xs={5} md={5}>
+                            <ProjectSummary summaryData={summaryData} />
+                        </Col>
                     </Row>
                     <SectionTitle text="Finding Problems" />
                     <Row>
