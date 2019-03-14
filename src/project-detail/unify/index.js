@@ -9,8 +9,8 @@ import {
 } from '../../shared-components/'
 import { Row, Col, Image } from 'react-bootstrap'
 import { UnifyHeaderImage } from './header-image'
-import ContentCarousel from '../../shared-components/content-carousel'
 import { ProjectSummary } from '../../shared-components/project-summary'
+import ContentCarousel from '../../shared-components/content-carousel'
 
 const summaryData = [
     {
