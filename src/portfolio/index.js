@@ -30,13 +30,13 @@ export default class PortfolioView extends React.Component {
                                 </div>
                             </figure>
                         </Link>
-                        <div className="col-sm-6 col-lg-4 card-display">
+                        <Link to="/project-detail/ecs" className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-purple h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <div className="overlay"><h4>Electronic Catalog</h4>UX Design Research, Prototyping</div>
                                 </div>
                             </figure>
-                        </div>
+                        </Link>
                         <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-blue h-300 h-400 mb-0">
                                 <div className="card-container">
