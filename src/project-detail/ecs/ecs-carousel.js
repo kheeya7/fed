@@ -1,12 +1,7 @@
 import React from 'react'
 import {
-    ButtonToolbar,
-    ToggleButtonGroup,
-    ToggleButton,
     Carousel,
-    Image,
-    Row,
-    Col
+    Image
 } from 'react-bootstrap'
 import './ecs-carousel.less'
 
