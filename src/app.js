@@ -5,6 +5,7 @@ import HomePageView from './router/home'
 import UnifyPageView from './router/unify'
 import EcsPageView from './router/ecs'
 import StrongerPageView from './router/stronger'
+import PocketPageView from './router/pocket'
 import NavView from '../src/navigation'
 import FooterView from '../src/footer'
 
@@ -18,6 +19,7 @@ class App extends React.Component {
                 <Route path="/project-detail/unify" exact={true} component={UnifyPageView} />
                 <Route path="/project-detail/ecs" exact={true} component={EcsPageView} />
                 <Route path="/project-detail/stronger" exact={true} component={StrongerPageView} />
+                <Route path="/project-detail/pocket" exact={true} component={PocketPageView} />
                 <FooterView />
             </div>
         )
