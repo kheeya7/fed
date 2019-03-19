@@ -65,7 +65,7 @@ export default class AboutView extends React.Component {
                                     <li>Invision</li>
                                 </ul>
                                 <p>
-                                    If you would like to know more about my projects and the work process,please visit my <a href="http://katesohng.com/blog/" target="_blank">blog</a>, or send an email to <a href="mailto:kheeya7@hotmail.com">Kate Sohng</a>.
+                                    If you would like to know more about my projects and the work process, please visit my <a href="http://katesohng.com/blog/" target="_blank">blog</a>, or send an email to <a href="mailto:kheeya7@hotmail.com">Kate Sohng</a>.
                                 </p>
                             </div>
                         </div>

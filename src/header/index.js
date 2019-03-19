@@ -7,7 +7,7 @@ export default class HeaderView extends React.Component {
                 <div className="row intro">
                     <div className="col align-self-center text-center">
                         <div>
-                            <img src="images/kate-logo-black-2019.png" alt="Kate sohng logo" className="kate-logo" />
+                            <img src="images/kate-logo-black-2019.svg" alt="Kate sohng logo" className="kate-logo" />
                         </div>
                         <h1>Front-End Developer<br />
                             UX Designer in Seattle</h1>

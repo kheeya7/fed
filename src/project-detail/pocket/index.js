@@ -77,6 +77,7 @@ export default class PocketView extends React.Component {
 
                     <SectionTitle text="Solutions" />
                     <Paragraph text="Organize and manage your accounts into one dashboard, and increase work flow, while minimizing time switching between different platforms." />
+                    <Image src="/images/pocket-userflowmap.png" />
                     <SectionSubtitle text="Link and manage all your accounts in one place" />
                     <Row>
                         <Col xs={12} md={3}>

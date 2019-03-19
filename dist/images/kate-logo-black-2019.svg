@@ -1,0 +1,18 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<polygon points="91,44.293 100.188,49.597 91,54.898 "/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="6" y1="38.5" x2="19" y2="38.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="6" y1="61.5" x2="19" y2="61.5"/>
+<rect x="6.5" y="37.5" stroke="#000000" stroke-width="3" stroke-miterlimit="10" width="6" height="25"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="5" y1="49.5" x2="47" y2="49.5"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" x1="60" y1="49.5" x2="91" y2="49.5"/>
+<path fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" d="M47.123,50.143c0-4.131,3.343-7.473,7.473-7.473
+	c4.126,0,7.473,3.342,7.473,7.473c0,4.125-3.347,7.472-7.473,7.472C50.466,57.615,47.123,54.269,47.123,50.143z"/>
+<circle display="none" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="54.903" cy="50.143" r="4.36"/>
+<g>
+	<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M48.573,14.283c-13.065,0-24.5,6.972-30.792,17.397
+		c5.454-6.793,13.822-11.145,23.212-11.145c16.436,0,29.76,13.323,29.76,29.759c0,16.436-13.324,29.759-29.76,29.759
+		c-9.174,0-17.375-4.152-22.833-10.679c6.365,10.09,17.603,16.798,30.414,16.798c19.852,0,35.945-16.094,35.945-35.945
+		C84.518,30.375,68.425,14.283,48.573,14.283z"/>
+</g>
+</svg>

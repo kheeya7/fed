@@ -1,7 +1,8 @@
 /* Portfolio
 ------------------------------------*/
 figure {
-    max-height: 300px;
+    height: auto;
+    
 }
 
 .section-container {
@@ -17,18 +18,25 @@ figure {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    word-break: break-word;
     &:hover .overlay{
         opacity: 1;
     }
+    // &:hover .project-card-img {
+    //     transition: .3s transform;
+    //     transition-property: transform;
+    //     transition-duration: 0.3s;
+    //     transition-timing-function: ease;
+    //     transition-delay: 0s;
+    //     transform: scale(0.9,0.9);
+    // }
 }
 
 .project-card-img{
     position: absolute;
-    top: 25%;
-    left: 25%;
     display: block;
-    max-width: 50%;
-    min-width: 12em;
+    max-width: 100%;
+    min-width: 12em;  
 }
 
 .hidden {
@@ -47,5 +55,5 @@ figure {
     color: white;
     font-size: 1.1em;
     padding: 1em;
-    text-align: center;
+    text-align: center;    
 }
