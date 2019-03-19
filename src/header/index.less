@@ -10,15 +10,23 @@ small {
     box-sizing: border-box;
     width: 100%;
     min-height: 700px;
-
-    
+  
   .kate-logo {
-    max-width: 3.7em;
+    width: 4em;
     margin-bottom: 1.8em;
   }
 
   p {
     font-size: 1.2em;
+  }
+
+  &:hover .btn-text{   
+      transition: .3s transform;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease;
+      transition-delay: 0s;
+      transform: scale(0.9,0.9);
   }
 
   @media (max-width: 576px) {
@@ -29,7 +37,6 @@ small {
       font-size: 1em;
     }
   }
-
 }
 
 

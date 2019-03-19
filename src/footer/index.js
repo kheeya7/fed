@@ -10,7 +10,7 @@ export default class FooterView extends React.Component {
                         <div className="col-12 col-sm-12 col-md-6 mb-xs-40 footer-intro">
                             <h4 className="mb-xs-20 mb-sm-40">Kate Sohng</h4>
                             <div className="row">
-                                <div className="col-5">
+                                <div className="col-5 pl-0">
                                     <ul className="list-unstyled">
                                         <li>Front-end developer</li>
                                         <li>UX | UI designer</li>
@@ -20,7 +20,7 @@ export default class FooterView extends React.Component {
                                 <div className="col-7">
                                     <ul className="list-unstyled">
                                         <li><a href="mailto:kheeya7@hotmail.com">Get in touch ></a></li>
-                                        <li><a href="katesohng-resume-2019.pdf" title="Download Resume" download="Katesohng-resume-2019"> Download resume ></a></li>
+                                        <li><a href="katesohng-resume-2019.pdf" title="Download Resume" download="Katesohng-resume-2019">Download resume ></a></li>
                                     </ul>
                                 </div>
                             </div>
