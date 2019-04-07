@@ -10,15 +10,18 @@ export default class PortfolioView extends React.Component {
                     <div className="row pb-0">
                         <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-beige h-300 h-400 mb-0">
+                                <img src="images/project-card-pocket.png" alt="project unify" className="project-card-img" />
                                 <div className="card-container">
-                                    <div className="overlay"><h4>Directory Browser</h4>HTML5, CSS3, JavaScript, React</div>
+                                    <div className="overlay"><h4>Directory Browser<br />—</h4>
+                                        <div className="project-skill">HTML5, CSS3, JavaScript, React</div></div>
                                 </div>
                             </figure>
                         </div>
                         <div className="col-sm-6 col-lg-4 card-display">
                             <figure className="bg-yellow h-300 h-400 mb-0">
+                                <img src="images/placehopder01-card-design.png" alt="project unify" className="project-card-img" />
                                 <div className="card-container">
-                                    <div className="overlay"><h4>Lafolks</h4>HTML5, CSS3, JavaScript, React</div>
+                                    <div className="overlay"><h4>Lafolks<br />—</h4>HTML5, CSS3, JavaScript, React</div>
                                 </div>
                             </figure>
                         </div>
@@ -26,7 +29,7 @@ export default class PortfolioView extends React.Component {
                             <figure className="bg-unify h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <img src="images/project-card-unify.png" alt="project unify" className="project-card-img" />
-                                    <div className="overlay"><h4>Unify</h4>Objective-C, UX/UI Design </div>
+                                    <div className="overlay"><h4>Unify<br />—</h4>Objective-C, UX/UI Design </div>
                                 </div>
                             </figure>
                         </Link>
@@ -34,7 +37,7 @@ export default class PortfolioView extends React.Component {
                             <figure className="bg-purple h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <img src="images/project-card-ecs.png" alt="project unify" className="project-card-img" />
-                                    <div className="overlay"><h4>Electronic Catalog</h4>UX Design, Prototyping</div>
+                                    <div className="overlay"><h4>Electronic Catalog<br />—</h4>UX Design, Prototyping</div>
                                 </div>
                             </figure>
                         </Link>
@@ -42,7 +45,7 @@ export default class PortfolioView extends React.Component {
                             <figure className="bg-blue h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <img src="images/project-card-stronger.png" alt="project unify" className="project-card-img" />
-                                    <div className="overlay"><h4>#Stronger</h4>UX Design, Graphic Design</div>
+                                    <div className="overlay"><h4>#Stronger<br />—</h4>UX Design, Graphic Design</div>
                                 </div>
                             </figure>
                         </Link>
@@ -50,7 +53,7 @@ export default class PortfolioView extends React.Component {
                             <figure className="bg-pink h-300 h-400 mb-0">
                                 <div className="card-container">
                                     <img src="images/project-card-pocket.png" alt="project unify" className="project-card-img" />
-                                    <div className="overlay"><h4>POCKET</h4>UX Design, Prototyping, HTML, CSS, JavaScript</div>
+                                    <div className="overlay"><h4>POCKET<br />—</h4>UX Design, Prototyping, HTML, CSS, JavaScript</div>
                                 </div>
                             </figure>
                         </Link>
