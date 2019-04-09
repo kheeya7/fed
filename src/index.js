@@ -8,7 +8,7 @@ import App from './app'
 
 ReactDOM.render(
   <BrowserRouter>
-    <App title="Kate Sohng Web Developer" />
+    <App />
   </BrowserRouter>,
   document.getElementById('app-react-root')
 )

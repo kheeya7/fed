@@ -5,7 +5,7 @@ import PortfolioView from '../portfolio'
 import SkillsView from '../skills'
 import SeparatorAbout from '../shared-components/separator-about'
 
-export default class HomePageView extends React.Component {
+export default class HomePageView extends React.PureComponent {
     render() {
         return (
             <div >

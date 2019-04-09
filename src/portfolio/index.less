@@ -1,64 +1,55 @@
 /* Portfolio
-------------------------------------*/
-figure {
-    height: auto;
-    
-}
+------------------------------------*/ 
 
-.section-container {
+.portfolio-view-container {
     padding: 0;
-}
 
-.card-display {
-    padding: 0;
-}
-
-.card-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    word-break: break-word;
-    &:hover .overlay{
-        opacity: 1;
+    .hidden {
+        display: none;
     }
-    // &:hover .project-card-img {
-    //     transition: .3s transform;
-    //     transition-property: transform;
-    //     transition-duration: 0.3s;
-    //     transition-timing-function: ease;
-    //     transition-delay: 0s;
-    //     transform: scale(0.9,0.9);
-    // }
-}
-
-.project-card-img{
-    position: absolute;
-    display: block;
-    max-width: 100%;
-    min-width: 12em;  
-}
-
-.hidden {
-    display: none;
-}
-
-.overlay {
-    position: absolute; 
-    top: 0;
-    left: 0;
     
-    background: rgba(0, 0, 0, 0.7); /* Black see-through */
-    color: #f1f1f1; 
-    width: 100%;
-    height: 100%;
-    transition: opacity 200ms linear;
-    opacity:0;
-    color: white;
-    font-size: 1.1em;
-    padding: 1em;
-    text-align: left; 
-    .project-skill {
-        bottom: 0;
-    }   
+    .card-display {
+        padding: 0;
+    }
+
+    .project-card-img {
+        position: absolute;
+        display: block;
+        max-width: 100%;
+        min-width: 12em;  
+    }
+    
+    .card-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        word-break: break-word;
+        &:hover .overlay{
+            opacity: 1;
+        }
+    }
+
+    .overlay {
+        position: absolute; 
+        top: 0;
+        left: 0;    
+        background: rgba(0, 0, 0, 0.7); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        height: 100%;
+        transition: opacity 200ms linear;
+        opacity:0;
+        color: white;
+        font-size: 1.1em;
+        padding: 1em;
+        text-align: left; 
+        .project-skill {
+            bottom: 0;
+        }   
+    } 
 }
+    
+    
+
+
