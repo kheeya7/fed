@@ -1,43 +1,46 @@
 /* HeaderView 
 ------------------------------------*/
-
-small {
+.header-view-container {
+  
+  small {
     color: lighten(@black, 50%);
   }
-  
-.intro {
+    
+  .intro {
     position: relative;
     box-sizing: border-box;
     width: 100%;
     min-height: 700px;
-  
-  .kate-logo {
-    width: 4em;
-    margin-bottom: 1.8em;
-  }
+      
+    .kate-logo {
+      width: 4em;
+      margin-bottom: 1.8em;
+    }
 
-  p {
-    font-size: 1.2em;
-  }
+    p {
+      font-size: 1.2em;
+    }
 
-  &:hover .btn-text{   
+    &:hover .btn-text {   
       transition: .3s transform;
       transition-property: transform;
       transition-duration: 0.3s;
       transition-timing-function: ease;
       transition-delay: 0s;
       transform: scale(0.9,0.9);
-  }
+    }
 
-  @media (max-width: 576px) {
-    .kate-logo {
-      max-width: 3em;
-    }
-    p {
-      font-size: 1em;
-    }
-  }
+    @media (max-width: 576px) {
+      .kate-logo {
+        max-width: 3em;
+      }
+      p {
+        font-size: 1em;
+      }
+    } 
+  }  
 }
+
 
 
   

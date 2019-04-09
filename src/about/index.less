@@ -1,44 +1,39 @@
 /* AboutView 
 ------------------------------------*/
-.about-main {
-  width: 100%;
-  background-color: @white;
-}
-
-.about {
-    position: relative;
-    box-sizing: border-box;
+.about-view-container{
+  .about-main {
     width: 100%;
-    min-height: 200px;
-}
-
-.profile {
-  width: 100%;
-  padding: 3.2em 0 3.2em;
-  img {
-    text-align: center;
+    background-color: @white;
   }
-  .text {
-    padding-top: 1em;
+  
+  .about {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 200px;
   }
-  .logo {
-    padding-bottom: 1.2em;
+  
+  .profile {
+    width: 100%;
+    padding: 3.2em 0 3.2em;
     img {
-      padding-right: 1em;
+      text-align: center;
     }
-  }
-  a {
-    color: @pointColor;
-    &:hover {
-      color: darken(@pointColor, 10%);
+    .text {
+      padding-top: 1em;
     }
-  }
-
+    .logo {
+      padding-bottom: 1.2em;
+      img {
+        padding-right: 1em;
+      }
+    }
+    a {
+      color: @pointColor;
+      &:hover {
+        color: darken(@pointColor, 10%);
+      }
+    }
+  } 
 }
-
-// @media(max-width: 1340px){
-//   .profile {
-//     width: 100%;
-//   }
-// }
 

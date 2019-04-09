@@ -1,8 +1,8 @@
 /* FooterView 
 ------------------------------------*/
 
-.footer {
-  background-color:@black;
+.footer-view-container {
+  background-color: @black;
   color: @white;
 
   ul{
@@ -13,31 +13,33 @@
       padding: 0;
     }
   }
+
+  .footer-wrapper {
+    padding: 4em 0 3em 0;
+  }
+    
+  .group {
+    padding-bottom: 3em;
+  }
+    
+  a {
+    text-decoration: none;
+    font-size: 1em;
+    color: @white;
+      &:hover {
+        color: @pointColor;
+      }
+  }
+    
+  .footer-intro {
+    margin-bottom: 2em;
+  }
+  
+  .copyright {
+    display: block;
+    color: darken(@white, 20%);
+  }
 }
 
-.footer-container {
-  padding: 4em 0 3em 0;
-}
-  
-.group {
-  padding-bottom: 3em;
-}
-  
-.footer a {
-  text-decoration: none;
-  font-size: 1em;
-  color: @white;
-    &:hover {
-      color: @pointColor;
-    }
-}
-  
-.footer-intro {
-  margin-bottom: 2em;
-}
 
-.copyright {
-  display: block;
-  color: darken(@white, 20%);
-}
 
