@@ -100,7 +100,9 @@ export default class UnifyView extends React.Component {
                     <SectionTitle text="Artifacts" />
                     <Row>
                         <Col xs={12} md={12}>
-                            <small>External Links to Kate Sohng' blog</small>
+                            <small>
+                                External Links to Kate Sohng' blog
+                            </small>
                         </Col>
                         <Col xs={12} md={12}>
                             <a href="http://katesohng.com/blog/index.php/ios-development/" target="_blank">✻ The Process of iOS Development ✻</a>
