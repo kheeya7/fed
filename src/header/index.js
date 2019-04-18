@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import Scrollchor from 'react-scrollchor'
 
 export default class HeaderView extends React.PureComponent {
     render() {
@@ -14,11 +15,11 @@ export default class HeaderView extends React.PureComponent {
                         <h1>Front-End Developer<br />
                             UX Designer in Seattle</h1>
                         <p>Producing responsive, accessibile rich websites for exceptional user experience</p>
-                        <a
-                            href="#portfolio"
+                        <Scrollchor
+                            to="#portfolio"
                             className="btn btn-info text-center text-uppercase">
-                            View Portfolio ˅
-                        </a>
+                            View Projects ˅
+                        </Scrollchor>
                     </Col>
                 </Row>
             </Container>

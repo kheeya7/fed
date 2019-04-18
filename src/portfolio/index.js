@@ -16,38 +16,6 @@ export default class PortfolioView extends React.PureComponent {
                             sm="6"
                             lg="4"
                             className="card-display">
-                            <figure className="bg-beige h-300 h-400 mb-0">
-                                <img
-                                    src="images/project-card-pocket.png"
-                                    alt="project unify"
-                                    className="project-card-img" />
-                                <div className="card-container">
-                                    <div className="overlay"><h4>Directory Browser<br />—</h4>
-                                        <div className="project-skill">HTML5, CSS3, JavaScript, React</div>
-                                    </div>
-                                </div>
-                            </figure>
-                        </Col>
-                        <Col
-                            sm="6"
-                            lg="4"
-                            className="card-display">
-                            <figure className="bg-yellow h-300 h-400 mb-0">
-                                <img
-                                    src="images/placehopder01-card-design.png"
-                                    alt="project unify"
-                                    className="project-card-img" />
-                                <div className="card-container">
-                                    <div className="overlay">
-                                        <h4>Lafolks<br />—</h4>
-                                        HTML5, CSS3, JavaScript, React</div>
-                                </div>
-                            </figure>
-                        </Col>
-                        <Col
-                            sm="6"
-                            lg="4"
-                            className="card-display">
                             <Link to="/project-detail/unify">
                                 <figure className="bg-unify h-300 h-400 mb-0">
                                     <div className="card-container">
@@ -112,6 +80,40 @@ export default class PortfolioView extends React.PureComponent {
                                     </div>
                                 </figure>
                             </Link>
+                        </Col>
+                        <Col
+                            sm="6"
+                            lg="4"
+                            className="card-display">
+                            <figure className="bg-yellow h-300 h-400 mb-0">
+                                <div className="card-container">
+                                    <img
+                                        src="images/placehopder01-card-design.png"
+                                        alt="project yuri"
+                                        className="project-card-img" />
+                                    <div className="overlay">
+                                        <h4>Project Yuri<br />—</h4>
+                                        Arduino, Interactive Installation, Android Artwork</div>
+                                </div>
+                            </figure>
+                        </Col>
+                        <Col
+                            sm="6"
+                            lg="4"
+                            className="card-display">
+                            <a href="http://katesohng.com/portfolio-2015/index.html" target="_blank">
+                                <figure className="bg-beige h-300 h-400 mb-0">
+                                    <div className="card-container">
+                                        <img
+                                            src="images/project-card-pocket.png"
+                                            alt="project unify"
+                                            className="project-card-img" />
+                                        <div className="overlay"><h4>Kate Sohng Portfolio 2015<br />—</h4>
+                                            <div className="project-skill">HTML, CSS, Photoshop, Illustrator</div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
                         </Col>
                     </Row>
                 </Container>
