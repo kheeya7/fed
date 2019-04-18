@@ -85,17 +85,19 @@ export default class PortfolioView extends React.PureComponent {
                             sm="6"
                             lg="4"
                             className="card-display">
-                            <figure className="bg-yellow h-300 h-400 mb-0">
-                                <div className="card-container">
-                                    <img
-                                        src="images/placehopder01-card-design.png"
-                                        alt="project yuri"
-                                        className="project-card-img" />
-                                    <div className="overlay">
-                                        <h4>Project Yuri<br />—</h4>
-                                        Arduino, Interactive Installation, Android Artwork</div>
-                                </div>
-                            </figure>
+                            <Link to="/project-detail/yuri">
+                                <figure className="bg-yellow h-300 h-400 mb-0">
+                                    <div className="card-container">
+                                        <img
+                                            src="images/placehopder01-card-design.png"
+                                            alt="project yuri"
+                                            className="project-card-img" />
+                                        <div className="overlay">
+                                            <h4>Project Yuri<br />—</h4>
+                                            Arduino, Interactive Installation, Android Artwork</div>
+                                    </div>
+                                </figure>
+                            </Link>
                         </Col>
                         <Col
                             sm="6"
