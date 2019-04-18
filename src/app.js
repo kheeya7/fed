@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Route, withRouter } from 'react-router-dom'
 import AboutPageView from './router/about'
 import HomePageView from './router/home'
 import UnifyPageView from './router/unify'
@@ -10,6 +10,12 @@ import NavView from '../src/navigation'
 import FooterView from '../src/footer'
 
 class App extends React.Component {
+    componentDidUpdate(prevProps) {
+        if (this.props.location.pathname !== prevProps.location.pathname) {
+            window.scrollTo(0, 0);
+        }
+    }
+
     render() {
         return (
             <div className="page bg-main">
@@ -26,4 +32,4 @@ class App extends React.Component {
     }
 }
 
-export default App
+export default withRouter(App)

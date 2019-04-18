@@ -103,6 +103,9 @@ export default class UnifyView extends React.Component {
                             <small>External Links to Kate Sohng' blog</small>
                         </Col>
                         <Col xs={12} md={12}>
+                            <a href="http://katesohng.com/blog/index.php/ios-development/" target="_blank">✻ The Process of iOS Development ✻</a>
+                        </Col>
+                        <Col xs={12} md={12}>
                             <a href="http://katesohng.com/blog/index.php/2017/10/30/prfaq/" target="_blank">✻ PRFAQ ✻</a>
                         </Col>
                         <Col xs={12} md={12}>

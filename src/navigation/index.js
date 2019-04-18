@@ -36,14 +36,14 @@ export default class NavView extends React.PureComponent {
                             id="togglerNav">
                             <div className="navbar-nav ml-auto font-weight-bold">
                                 <Link
+                                    to="/"
+                                    className="nav-item nav-link">
+                                    Home
+                                </Link>
+                                <Link
                                     to="/about"
                                     className="nav-item nav-link">
                                     About
-                                </Link>
-                                <Link
-                                    to="/"
-                                    className="nav-item nav-link">
-                                    Portfolio
                                 </Link>
                                 <a
                                     className="nav-item nav-link"
@@ -53,7 +53,7 @@ export default class NavView extends React.PureComponent {
                                 </a>
                                 <a
                                     className="nav-item nav-link"
-                                    href="#">
+                                    href="mailto:kheeya7@hotmail.com">
                                     Contact
                                 </a>
                             </div>
