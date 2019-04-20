@@ -15,7 +15,7 @@ export default class FooterView extends React.PureComponent {
                                     <ul className="list-unstyled">
                                         <li>Front-end developer</li>
                                         <li>UX | UI designer</li>
-                                        <li>Available March 2019</li>
+                                        <li>Available April 2019</li>
                                     </ul>
                                 </div>
                                 <div className="col-7">

@@ -1,0 +1,61 @@
+.withme-view-container{
+      
+    background-image: url("/images/work-with-me.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+
+    .filter {
+        background: rgba(51, 51, 51, 0.6);
+        z-index: 3;
+        padding: 15em 0;
+    }
+
+    div,
+    h2 {
+        color: @white;
+    }
+    
+    .withme{
+        width: 100%;
+        height: auto;        
+                
+        .withme-wrapper {
+            text-align: center;
+
+            .line-separator {
+                padding-bottom: 1em;  
+                max-width: 240px;
+                margin: 0 auto 20px;
+                text-align: center;
+                position: relative;        
+            }
+
+            .line-separator:before,
+            .line-separator:after {                
+                width: 40%;
+                content: " ";
+                margin-top: 10px;
+                border: 1px solid #fff;
+            }
+
+            .line-separator:before{
+                float: left;
+            }
+            
+            .line-separator:after{
+                float: right;
+            }
+
+            h2 {
+                font-size: 2.0em;
+                padding-bottom: 0.5em;                
+            }
+        
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }   
+}
