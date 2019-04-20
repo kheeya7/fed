@@ -5,7 +5,7 @@ import Scrollchor from 'react-scrollchor'
 export default class HeaderView extends React.PureComponent {
     render() {
         return (
-            <Container className="header-view-container">
+            <Container fluid className="header-view-container">
                 <Row className="intro">
                     <Col className="align-self-center text-center">
                         <img

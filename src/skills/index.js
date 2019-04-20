@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 export default class SkillsView extends React.PureComponent {
     render() {
         return (
-            <section>
+            <section className="pb-0">
                 <Container className="skills">
                     <Row>
                         <Col>

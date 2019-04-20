@@ -14,7 +14,7 @@ export default class AboutView extends React.PureComponent {
     render() {
         return (
             <div className="about-view-container">
-                <Container>
+                <Container fluid className="about-wrapper">
                     <Row className="about">
                         <Col
                             col="12"
