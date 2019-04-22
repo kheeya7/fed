@@ -13,7 +13,7 @@ export default class PortfolioView extends React.PureComponent {
                     <h2 className="col-sm-6 hidden">Projects</h2>
                     <Row className="pb-0">
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <Link to="/project-detail/unify">
@@ -24,14 +24,19 @@ export default class PortfolioView extends React.PureComponent {
                                             alt="project unify"
                                             className="project-card-img" />
                                         <div className="overlay">
-                                            <h4>Unify<br />—</h4>Objective-C, UX/UI Design
-                                    </div>
+                                            <h4>Unify<br />—</h4>
+                                            Objective-C, UX/UI Design
+                                        </div>
                                     </div>
                                 </figure>
+                                <div className="xs-display">
+                                    <h4>Unify<br /></h4>
+                                    Objective-C, UX/UI Design
+                                </div>
                             </Link>
                         </Col>
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <Link to="/project-detail/ecs">
@@ -42,14 +47,19 @@ export default class PortfolioView extends React.PureComponent {
                                             alt="project unify"
                                             className="project-card-img" />
                                         <div className="overlay">
-                                            <h4>Electronic Catalog<br />—</h4>UX Design, Prototyping
-                                    </div>
+                                            <h4>Electronic Catalog<br />—</h4>
+                                            UX Design, Prototyping
+                                        </div>
                                     </div>
                                 </figure>
+                                <div className="xs-display">
+                                    <h4>Electronic Catalog<br /></h4>
+                                    UX Design, Prototyping
+                                </div>
                             </Link>
                         </Col>
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <Link to="/project-detail/stronger">
@@ -60,14 +70,19 @@ export default class PortfolioView extends React.PureComponent {
                                             alt="project unify"
                                             className="project-card-img" />
                                         <div className="overlay">
-                                            <h4>#Stronger<br />—</h4>UX Design, Graphic Design
-                                    </div>
+                                            <h4>#Stronger<br />—</h4>
+                                            UX Design, Graphic Design
+                                        </div>
                                     </div>
                                 </figure>
+                                <div className="xs-display">
+                                    <h4>#Stronger<br /></h4>
+                                    UX Design, Graphic Design
+                                </div>
                             </Link>
                         </Col>
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <Link to="/project-detail/pocket">
@@ -75,14 +90,19 @@ export default class PortfolioView extends React.PureComponent {
                                     <div className="card-container">
                                         <img src="images/project-card-pocket.png" alt="project unify" className="project-card-img" />
                                         <div className="overlay">
-                                            <h4>POCKET<br />—</h4>UX Design, Prototyping, HTML, CSS, JavaScript
-                                    </div>
+                                            <h4>POCKET<br />—</h4>
+                                            UX Design, Prototyping, HTML, CSS, JavaScript
+                                        </div>
                                     </div>
                                 </figure>
+                                <div className="xs-display">
+                                    <h4>POCKET<br /></h4>
+                                    UX Design, Prototyping, HTML, CSS, JavaScript
+                                </div>
                             </Link>
                         </Col>
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <Link to="/project-detail/yuri">
@@ -94,13 +114,18 @@ export default class PortfolioView extends React.PureComponent {
                                             className="project-card-img" />
                                         <div className="overlay">
                                             <h4>Project Yuri<br />—</h4>
-                                            Arduino, Interactive Installation, Android Artwork</div>
+                                            Arduino, Interactive Installation, Android Artwork
+                                        </div>
                                     </div>
                                 </figure>
+                                <div className="xs-display">
+                                    <h4>Project Yuri<br /></h4>
+                                    Arduino, Interactive Installation, Android Artwork
+                                </div>
                             </Link>
                         </Col>
                         <Col
-                            sm="6"
+                            md="6"
                             lg="4"
                             className="card-display">
                             <a href="http://katesohng.com/portfolio-2015/index.html" target="_blank">
@@ -110,9 +135,14 @@ export default class PortfolioView extends React.PureComponent {
                                             src="images/project-card-pocket.png"
                                             alt="project unify"
                                             className="project-card-img" />
-                                        <div className="overlay"><h4>Kate Sohng Portfolio 2015<br />—</h4>
+                                        <div className="overlay">
+                                            <h4>Kate Sohng Portfolio 2015<br />—</h4>
                                             <div className="project-skill">HTML, CSS, Photoshop, Illustrator</div>
                                         </div>
+                                    </div>
+                                    <div className="xs-display">
+                                        <h4>Kate Sohng Portfolio 2015<br /></h4>
+                                        HTML, CSS, Photoshop, Illustrator
                                     </div>
                                 </figure>
                             </a>
