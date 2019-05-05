@@ -1,0 +1,86 @@
+[
+    {
+        "id": "pjid-unify",
+        "tags": [
+            "iOS Development",
+            "Prototyping",
+            "Social Justice",
+            "Graphic Design",
+            "UX Research",
+            "Emphathy"
+        ],
+        "title": "Unify iOS Application",
+        "role": "UX Researcher, iOS Developer",
+        "backgroundClass": "bg-unify",
+        "imageUrl": "images/project-card-unify.png"
+    },
+    {
+        "id": "pjid-ecs",
+        "tags": [
+            "Prototyping",
+            "Graphic Design",
+            "UX Research",
+            "UI Design"
+        ],
+        "title": "Electronic Catalog System",
+        "role": "UX Researcher, UI Designer",
+        "backgroundClass": "bg-purple",
+        "imageUrl": "images/project-card-ecs.png"
+    },
+    {
+        "id": "pjid-stronger",
+        "tags": [
+            "Photoshop",
+            "Graphic Design",
+            "Illustrator",
+            "UX Research",
+            "Emphathy",
+            "Internship"
+        ],
+        "title": "#Stronger",
+        "role": "UX Researcher, UI Designer, Graphic Designer",
+        "backgroundClass": "bg-blue",
+        "imageUrl": "images/project-card-stronger.png"
+    },
+    {
+        "id": "pjid-pocket",
+        "tags": [
+            "Prototyping",
+            "Web Development",
+            "Graphic Design",
+            "UX Research",
+            "UI Design"
+        ],
+        "title": "POCKET App",
+        "role": "UX Researcher, Web Developer",
+        "backgroundClass": "bg-pink",
+        "imageUrl": "images/project-card-pocket.png"
+    },
+    {
+        "id": "pjid-yuri",
+        "tags": [
+            "Arduino",
+            "Interactive Media Installation",
+            "Android Artwork",
+            "Social Justice"
+        ],
+        "title": "Project Yuri",
+        "role": "Interactive Installation Designer",
+        "backgroundClass": "bg-yellow",
+        "imageUrl": "images/placeholder01-card-design.png"
+    },
+    {
+        "id": "pjid-2015",
+        "tags": [
+            "Photoshop",
+            "Graphic Design",
+            "Illustrator",
+            "HTML",
+            "CSS"
+        ],
+        "title": "Kate Sohng Portfolio 2015",
+        "role": "Web Designer / Developer",
+        "backgroundClass": "bg-beige",
+        "imageUrl": "images/project-card-pocket.png"
+    }
+]
