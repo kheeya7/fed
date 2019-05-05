@@ -15,30 +15,46 @@ export default class PortfolioView extends React.PureComponent {
                     <Row className="pb-0">
                         {
                             projectData.map((data) => {
+                                const insideLink = () => (
+                                    <div>
+                                        <figure className={data.backgroundClass + " h-300 h-400 mb-0"}>
+                                            <div className="card-container">
+                                                <img
+                                                    src={data.imageUrl}
+                                                    alt={data.title}
+                                                    className="project-card-img" />
+                                                <div className="overlay">
+                                                    <h4>{data.title}<br />—</h4>
+                                                    {data.role}
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <div className="xs-display">
+                                            <h4>{data.title}<br /></h4>
+                                            {data.role}
+                                        </div>
+                                    </div>
+                                )
+
+
                                 return (
                                     <Col
                                         key={data.id}
                                         md="6"
                                         lg="4"
                                         className="card-display">
-                                        <Link to="/project-detail/unify">
-                                            <figure className={data.backgroundClass + " h-300 h-400 mb-0"}>
-                                                <div className="card-container">
-                                                    <img
-                                                        src={data.imageUrl}
-                                                        alt={data.title}
-                                                        className="project-card-img" />
-                                                    <div className="overlay">
-                                                        <h4>{data.title}<br />—</h4>
-                                                        {data.role}
-                                                    </div>
-                                                </div>
-                                            </figure>
-                                            <div className="xs-display">
-                                                <h4>{data.title}<br /></h4>
-                                                {data.role}
-                                            </div>
-                                        </Link>
+                                        {
+                                            data.linkTo &&
+                                            <Link to={data.linkTo}>
+                                                {insideLink()}
+                                            </Link>
+                                        }
+                                        {
+                                            data.externalLink &&
+                                            <a href={data.externalLink} target="_blank">
+                                                {insideLink()}
+                                            </a>
+                                        }
                                     </Col>
                                 );
                             })

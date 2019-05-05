@@ -11,6 +11,7 @@
         ],
         "title": "Unify iOS Application",
         "role": "UX Researcher, iOS Developer",
+        "linkTo": "/project-detail/unify",
         "backgroundClass": "bg-unify",
         "imageUrl": "images/project-card-unify.png"
     },
@@ -24,6 +25,7 @@
         ],
         "title": "Electronic Catalog System",
         "role": "UX Researcher, UI Designer",
+        "linkTo": "/project-detail/ecs",
         "backgroundClass": "bg-purple",
         "imageUrl": "images/project-card-ecs.png"
     },
@@ -39,6 +41,7 @@
         ],
         "title": "#Stronger",
         "role": "UX Researcher, UI Designer, Graphic Designer",
+        "linkTo": "/project-detail/stronger",
         "backgroundClass": "bg-blue",
         "imageUrl": "images/project-card-stronger.png"
     },
@@ -53,6 +56,7 @@
         ],
         "title": "POCKET App",
         "role": "UX Researcher, Web Developer",
+        "linkTo": "/project-detail/pocket",
         "backgroundClass": "bg-pink",
         "imageUrl": "images/project-card-pocket.png"
     },
@@ -66,6 +70,7 @@
         ],
         "title": "Project Yuri",
         "role": "Interactive Installation Designer",
+        "linkTo": "/project-detail/yuri",
         "backgroundClass": "bg-yellow",
         "imageUrl": "images/placeholder01-card-design.png"
     },
@@ -80,6 +85,8 @@
         ],
         "title": "Kate Sohng Portfolio 2015",
         "role": "Web Designer / Developer",
+        "linkTo": null,
+        "externalLink": "http://katesohng.com/portfolio-2015/",
         "backgroundClass": "bg-beige",
         "imageUrl": "images/project-card-pocket.png"
     }
