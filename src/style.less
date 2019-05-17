@@ -21,7 +21,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -29,6 +31,7 @@ body {
   min-width: 375px;
   -webkit-font-smoothing: antialiased;
   font-family: 'Poppins', sans-serif !important;
+  color: #333333;
 }
 
 .page {
@@ -36,13 +39,13 @@ body {
 }
 
 h1 {
-  font-size: 2.2em;  
+  font-size: 2.2em;
 }
 
 h2 {
   font-size: 1.4em;
   font-weight: 600;
-  font-family: 'Cambo', serif !important;  
+  font-family: 'Cambo', serif !important;
   color: @grey;
 }
 
@@ -64,8 +67,9 @@ a {
   font-size: @baseFontSize;
   text-decoration: none;
   color: @black;
+
   &:hover {
-    color: @pointColor;    
+    color: @pointColor;
   }
 }
 
@@ -79,7 +83,7 @@ section {
   padding-bottom: 6em;
 }
 
-.no-hor-padding { 
+.no-hor-padding {
   padding-left: 0;
   padding-right: 0;
 }
@@ -100,6 +104,7 @@ section {
   padding: 1em 1.5em;
   border: none;
   border-radius: 3em;
+
   &:hover {
     background-color: darken(@pointColor, 8%);
   }
@@ -118,6 +123,7 @@ section {
   h1 {
     font-size: 1.8em;
   }
+
   .btn-info {
     margin-top: 2em;
     padding: .8em 1.3em;
