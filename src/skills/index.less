@@ -1,9 +1,58 @@
 /* Skills
 ------------------------------------*/
 .skills {
-    margin-bottom: 0; 
-    
+    margin-bottom: 0;
+
     p {
         margin-bottom: 3em;
+    }
+
+    .skills-container {
+        height: 650px;
+        margin-bottom: 20px;
+
+        .skill-left-panel,
+        .skill-right-panel {
+            border: solid 1px #666666;
+        }
+
+        .skill-tabs {
+            padding: 0px;
+            margin-top: 20px;
+
+            .default-skill-tab {
+                margin-bottom: 5px;
+            }
+
+            .selected-skill-tab {
+                background-color: tomato;
+                margin-bottom: 5px;
+            }
+        }
+
+        button {
+            background-color: unset;
+            border: 0;
+            color: unset;
+            text-align: left;
+            width: 160px;
+            border: solid 1px #944646;
+            border-left: none;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 0px;
+
+            &:hover,
+            &:focus {
+                color: unset;
+                outline: 0;
+                box-shadow: 0 0 0 0;
+            }
+
+            &:active {
+                background-color: unset !important;
+                color: #666666 !important;
+                box-shadow: 0 0 0 0 !important;
+            }
+        }
     }
 }
