@@ -1,17 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export function Paragraph(props) {
-
-    return (
+  return (
         <p className="project-paragraph">{props.text}</p>
-    )
+  );
 }
 
 Paragraph.propTypes = {
-    text: PropTypes.string,
-}
+  text: PropTypes.string,
+};
 
 Paragraph.defaultProps = {
-    text: ''
-}
+  text: '',
+};

@@ -1,43 +1,43 @@
-import React from 'react'
+import React from 'react';
 import {
-    ButtonToolbar,
-    ToggleButtonGroup,
-    ToggleButton,
-    Carousel,
-    Image,
-    Row,
-    Col
-} from 'react-bootstrap'
-import './content-carousel.less'
+  ButtonToolbar,
+  ToggleButtonGroup,
+  ToggleButton,
+  Carousel,
+  Image,
+  Row,
+  Col,
+} from 'react-bootstrap';
+import './content-carousel.less';
 
 export default class ControlledCarousel extends React.Component {
-    constructor(props, context) {
-        super(props, context);
+  constructor(props, context) {
+    super(props, context);
 
-        this.handleSelect = this.handleSelect.bind(this);
-        this.handleChange = this.handleChange.bind(this);
+    this.handleSelect = this.handleSelect.bind(this);
+    this.handleChange = this.handleChange.bind(this);
 
-        this.state = {
-            selectedIndex: 0,
-            direction: null,
-        };
-    }
+    this.state = {
+      selectedIndex: 0,
+      direction: null,
+    };
+  }
 
-    handleSelect(selectedIndex, e) {
-        this.setState({
-            selectedIndex: selectedIndex,
-            direction: e.direction
-        });
-    }
+  handleSelect(selectedIndex, e) {
+    this.setState({
+      selectedIndex,
+      direction: e.direction,
+    });
+  }
 
-    handleChange(e) {
-        this.setState({ selectedIndex: e });
-    }
+  handleChange(e) {
+    this.setState({ selectedIndex: e });
+  }
 
-    render() {
-        const { selectedIndex, direction } = this.state;
+  render() {
+    const { selectedIndex, direction } = this.state;
 
-        return (
+    return (
             <div className="project-content-carousel">
                 <div>
                     <ButtonToolbar>
@@ -48,15 +48,15 @@ export default class ControlledCarousel extends React.Component {
                             onChange={this.handleChange}
                         >
                             <ToggleButton
-                                className={this.state.selectedIndex === 0 ? "selectedToggleButtonStyle" : "toggleButtonStyle"} value={0}>
+                                className={this.state.selectedIndex === 0 ? 'selectedToggleButtonStyle' : 'toggleButtonStyle'} value={0}>
                                 Personas
                             </ToggleButton>
                             <ToggleButton
-                                className={this.state.selectedIndex === 1 ? "selectedToggleButtonStyle" : "toggleButtonStyle"} value={1}>
+                                className={this.state.selectedIndex === 1 ? 'selectedToggleButtonStyle' : 'toggleButtonStyle'} value={1}>
                                 Data
                             </ToggleButton>
                             <ToggleButton
-                                className={this.state.selectedIndex === 2 ? "selectedToggleButtonStyle" : "toggleButtonStyle"} value={2}>
+                                className={this.state.selectedIndex === 2 ? 'selectedToggleButtonStyle' : 'toggleButtonStyle'} value={2}>
                                 Affordance
                             </ToggleButton>
                         </ToggleButtonGroup>
@@ -100,6 +100,6 @@ export default class ControlledCarousel extends React.Component {
                     </Carousel.Item>
                 </Carousel>
             </div>
-        );
-    }
+    );
+  }
 }

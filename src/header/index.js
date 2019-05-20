@@ -1,10 +1,10 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Scrollchor from 'react-scrollchor'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import Scrollchor from 'react-scrollchor';
 
 export default class HeaderView extends React.PureComponent {
-    render() {
-        return (
+  render() {
+    return (
             <Container fluid className="header-view-container">
                 <Row className="intro">
                     <Col className="align-self-center text-center">
@@ -23,6 +23,6 @@ export default class HeaderView extends React.PureComponent {
                     </Col>
                 </Row>
             </Container>
-        )
-    }
+    );
+  }
 }

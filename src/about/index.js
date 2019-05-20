@@ -1,14 +1,14 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import html5Logo from '../about/html5.png'
-import css3Logo from '../about/css3.png'
-import jsLogo from '../about/javascript.png'
-import gitLogo from '../about/git.png'
-import illustratorLogo from '../about/illustrator.jpg'
-import sketchLogo from '../about/sketch.jpg'
-import photoshopLogo from '../about/photoshop.png'
-import invisionLogo from '../about/invision.png'
-import profilePhoto from '../../assets/kate-sohng.jpg'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import html5Logo from './html5.png';
+import css3Logo from './css3.png';
+import jsLogo from './javascript.png';
+import gitLogo from './git.png';
+import illustratorLogo from './illustrator.jpg';
+import sketchLogo from './sketch.jpg';
+import photoshopLogo from './photoshop.png';
+import invisionLogo from './invision.png';
+import profilePhoto from '../../assets/kate-sohng.jpg';
 
 export default class AboutView extends React.PureComponent {
     render() {
@@ -27,8 +27,12 @@ export default class AboutView extends React.PureComponent {
                 <main className="about-main">
                     <Container className="profile">
                         <Row>
-                            <div className="col-lg-2 offset-lg-2 col-12"><img width={150} alt="a photo of Kate Sohng" src={profilePhoto} /></div>
-                            <div className="col-lg-6 col-12 text">I am a front-end developer, a graduate from Interactive Media Design of the University of Washington. I have 2 years commercial experience providing graphic design and front-end development in South Korea. Since then, I have been focusing on producing high-quality responsive websites and exceptional user experience.</div>
+                            <div className="col-lg-2 offset-lg-2 col-12">
+                                <img width={150} alt="a photo of Kate Sohng" src={profilePhoto} />
+                            </div>
+                            <div className="col-lg-6 col-12 text">
+                                I am a front-end developer, a graduate from Interactive Media Design of the University of Washington. I have 2 years commercial experience providing graphic design and front-end development in South Korea. Since then, I have been focusing on producing high-quality responsive websites and exceptional user experience.
+                            </div>
                         </Row>
                         <Row>
                             <Col lg="8" className="offset-lg-2 text">
@@ -75,6 +79,6 @@ export default class AboutView extends React.PureComponent {
                     </Container>
                 </main>
             </div>
-        )
+        );
     }
 }

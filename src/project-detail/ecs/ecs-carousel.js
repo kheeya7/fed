@@ -1,38 +1,38 @@
-import React from 'react'
+import React from 'react';
 import {
-    Carousel,
-    Image
-} from 'react-bootstrap'
-import './ecs-carousel.less'
+  Carousel,
+  Image,
+} from 'react-bootstrap';
+import './ecs-carousel.less';
 
 export default class EcsCarousel extends React.Component {
-    constructor(props, context) {
-        super(props, context);
+  constructor(props, context) {
+    super(props, context);
 
-        this.handleSelect = this.handleSelect.bind(this);
-        this.handleChange = this.handleChange.bind(this);
+    this.handleSelect = this.handleSelect.bind(this);
+    this.handleChange = this.handleChange.bind(this);
 
-        this.state = {
-            selectedIndex: 0,
-            direction: null,
-        };
-    }
+    this.state = {
+      selectedIndex: 0,
+      direction: null,
+    };
+  }
 
-    handleSelect(selectedIndex, e) {
-        this.setState({
-            selectedIndex: selectedIndex,
-            direction: e.direction
-        });
-    }
+  handleSelect(selectedIndex, e) {
+    this.setState({
+      selectedIndex,
+      direction: e.direction,
+    });
+  }
 
-    handleChange(e) {
-        this.setState({ selectedIndex: e });
-    }
+  handleChange(e) {
+    this.setState({ selectedIndex: e });
+  }
 
-    render() {
-        const { selectedIndex, direction } = this.state;
+  render() {
+    const { selectedIndex, direction } = this.state;
 
-        return (
+    return (
             <div className="ecs-carousel">
                 <Carousel
                     activeIndex={selectedIndex}
@@ -90,6 +90,6 @@ export default class EcsCarousel extends React.Component {
                     </Carousel.Item>
                 </Carousel>
             </div>
-        );
-    }
+    );
+  }
 }

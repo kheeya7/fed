@@ -1,9 +1,9 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class ExperienceView extends React.PureComponent {
-    render() {
-        return (
+  render() {
+    return (
             <section>
                 <Container className="experience-view-container">
                     <Row>
@@ -68,6 +68,6 @@ export default class ExperienceView extends React.PureComponent {
                     </Row>
                 </Container>
             </section>
-        )
-    }
+    );
+  }
 }

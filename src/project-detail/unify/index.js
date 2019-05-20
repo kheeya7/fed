@@ -1,44 +1,44 @@
-import React from 'react'
-import Iframe from 'react-iframe'
+import React from 'react';
+import Iframe from 'react-iframe';
+import { Row, Col, Image } from 'react-bootstrap';
 import {
-    Title,
-    Paragraph,
-    SectionTitle,
-    SectionSubtitle,
-    ProjectDescription
-} from '../../shared-components/'
-import { Row, Col, Image } from 'react-bootstrap'
-import { UnifyHeaderImage } from './header-image'
-import { ProjectSummary } from '../../shared-components/project-summary'
-import ContentCarousel from '../../shared-components/content-carousel'
+  Title,
+  Paragraph,
+  SectionTitle,
+  SectionSubtitle,
+  ProjectDescription,
+} from '../../shared-components';
+import { UnifyHeaderImage } from './header-image';
+import { ProjectSummary } from '../../shared-components/project-summary';
+import ContentCarousel from '../../shared-components/content-carousel';
 
 const summaryData = [
-    {
-        imagePath: '/images/icon-person.png',
-        title: 'Role',
-        description: 'UX Researcher | UI Designer',
-    },
-    {
-        imagePath: '/images/icon-mobile.png',
-        title: 'Type',
-        description: 'iOS Mobile App | Group Project  '
-    },
-    {
-        imagePath: '/images/icon-responsibility.png',
-        title: 'Responsibilities',
-        description: 'Defining users & problems UI Design'
-    },
-    {
-        imagePath: '/images/icon-clock.png',
-        title: 'Duration',
-        description: '10 weeks'
-    }
-]
+  {
+    imagePath: '/images/icon-person.png',
+    title: 'Role',
+    description: 'UX Researcher | UI Designer',
+  },
+  {
+    imagePath: '/images/icon-mobile.png',
+    title: 'Type',
+    description: 'iOS Mobile App | Group Project  ',
+  },
+  {
+    imagePath: '/images/icon-responsibility.png',
+    title: 'Responsibilities',
+    description: 'Defining users & problems UI Design',
+  },
+  {
+    imagePath: '/images/icon-clock.png',
+    title: 'Duration',
+    description: '10 weeks',
+  },
+];
 
 
 export default class UnifyView extends React.Component {
-    render() {
-        return (
+  render() {
+    return (
             <main className="project-detail">
                 <div className="project-detail-header">
                     <Title text="Unify" />
@@ -93,7 +93,7 @@ export default class UnifyView extends React.Component {
                                 width="438"
                                 height="870"
                                 position="relative"
-                                styles={{ transform: "scale(0.65)", transformOrigin: "top center" }}
+                                styles={{ transform: 'scale(0.65)', transformOrigin: 'top center' }}
                             />
                         </Col>
                     </Row>
@@ -116,7 +116,6 @@ export default class UnifyView extends React.Component {
                     </Row>
                 </div>
             </main>
-        )
-    }
+    );
+  }
 }
-

@@ -1,41 +1,41 @@
-import React from 'react'
-import Iframe from 'react-iframe'
+import React from 'react';
+import Iframe from 'react-iframe';
+import { Row, Col, Image } from 'react-bootstrap';
 import {
-    Title,
-    Paragraph,
-    SectionTitle,
-    SectionSubtitle,
-    ProjectDescription
-} from '../../shared-components/'
-import { Row, Col, Image } from 'react-bootstrap'
-import { ProjectSummary } from '../../shared-components/project-summary'
+  Title,
+  Paragraph,
+  SectionTitle,
+  SectionSubtitle,
+  ProjectDescription,
+} from '../../shared-components';
+import { ProjectSummary } from '../../shared-components/project-summary';
 
 const summaryData = [
-    {
-        imagePath: '/images/icon-person.png',
-        title: 'Role',
-        description: 'UX Designer',
-    },
-    {
-        imagePath: '/images/icon-mobile.png',
-        title: 'Type',
-        description: 'Interactive Installation'
-    },
-    {
-        imagePath: '/images/icon-responsibility.png',
-        title: 'Responsibilities',
-        description: 'Designing Android Artwork'
-    },
-    {
-        imagePath: '/images/icon-clock.png',
-        title: 'Duration',
-        description: '10 weeks'
-    }
-]
+  {
+    imagePath: '/images/icon-person.png',
+    title: 'Role',
+    description: 'UX Designer',
+  },
+  {
+    imagePath: '/images/icon-mobile.png',
+    title: 'Type',
+    description: 'Interactive Installation',
+  },
+  {
+    imagePath: '/images/icon-responsibility.png',
+    title: 'Responsibilities',
+    description: 'Designing Android Artwork',
+  },
+  {
+    imagePath: '/images/icon-clock.png',
+    title: 'Duration',
+    description: '10 weeks',
+  },
+];
 
 export default class YuriView extends React.Component {
-    render() {
-        return (
+  render() {
+    return (
             <main className="project-detail pb-5">
                 <div className="project-detail-header">
                     <Title text="Yuri" />
@@ -91,6 +91,6 @@ export default class YuriView extends React.Component {
                     </Row>
                 </div>
             </main>
-        )
-    }
+    );
+  }
 }

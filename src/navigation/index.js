@@ -1,10 +1,10 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default class NavView extends React.PureComponent {
-    render() {
-        return (
+  render() {
+    return (
             <div className="background">
                 <Container className="nav-view-container" role="banner">
                     <div className="nav-wrapper">
@@ -63,6 +63,6 @@ export default class NavView extends React.PureComponent {
                     </div>
                 </Container>
             </div>
-        )
-    }
+    );
+  }
 }

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Container } from 'react-bootstrap';
 
 export default class WithmeView extends React.PureComponent {
     render() {
@@ -18,6 +18,6 @@ export default class WithmeView extends React.PureComponent {
                     </Container>
                 </div>
             </section>
-        )
+        );
     }
 }

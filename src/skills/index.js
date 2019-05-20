@@ -1,9 +1,9 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class SkillsView extends React.PureComponent {
-    render() {
-        return (
+  render() {
+    return (
             <section className="pb-0">
                 <Container className="skills">
                     <Row>
@@ -59,6 +59,6 @@ export default class SkillsView extends React.PureComponent {
                     </Row>
                 </Container>
             </section>
-        )
-    }
+    );
+  }
 }

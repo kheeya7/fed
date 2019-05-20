@@ -1,10 +1,10 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default class FooterView extends React.PureComponent {
-    render() {
-        return (
+  render() {
+    return (
             <Container fluid className="footer-view-container no-hor-padding">
                 <Container className="footer-wrapper">
                     <div className="row group mb-xs-40 mb-ms-80">
@@ -48,6 +48,6 @@ export default class FooterView extends React.PureComponent {
                     </small>
                 </Container>
             </Container>
-        )
-    }
-} 
+    );
+  }
+}

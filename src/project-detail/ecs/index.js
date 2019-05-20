@@ -1,41 +1,41 @@
-import React from 'react'
+import React from 'react';
+import { Row, Col, Image } from 'react-bootstrap';
 import {
-    Title,
-    Paragraph,
-    SectionTitle,
-    SectionSubtitle,
-    ProjectDescription
-} from '../../shared-components/'
-import { Row, Col, Image } from 'react-bootstrap'
-import { ProjectSummary } from '../../shared-components/project-summary'
-import EcsCarousel from '../ecs/ecs-carousel'
+  Title,
+  Paragraph,
+  SectionTitle,
+  SectionSubtitle,
+  ProjectDescription,
+} from '../../shared-components';
+import { ProjectSummary } from '../../shared-components/project-summary';
+import EcsCarousel from './ecs-carousel';
 
 const summaryData = [
-    {
-        imagePath: '/images/icon-person.png',
-        title: 'Role',
-        description: 'UX Researcher | UI Designer',
-    },
-    {
-        imagePath: '/images/icon-mobile.png',
-        title: 'Type',
-        description: 'Empathic Design Approach | Group Project  '
-    },
-    {
-        imagePath: '/images/icon-responsibility.png',
-        title: 'Responsibilities',
-        description: 'Defining users & problems | UI Design | Research through Design'
-    },
-    {
-        imagePath: '/images/icon-clock.png',
-        title: 'Duration',
-        description: '10 weeks'
-    }
-]
+  {
+    imagePath: '/images/icon-person.png',
+    title: 'Role',
+    description: 'UX Researcher | UI Designer',
+  },
+  {
+    imagePath: '/images/icon-mobile.png',
+    title: 'Type',
+    description: 'Empathic Design Approach | Group Project  ',
+  },
+  {
+    imagePath: '/images/icon-responsibility.png',
+    title: 'Responsibilities',
+    description: 'Defining users & problems | UI Design | Research through Design',
+  },
+  {
+    imagePath: '/images/icon-clock.png',
+    title: 'Duration',
+    description: '10 weeks',
+  },
+];
 
 export default class EcsView extends React.Component {
-    render() {
-        return (
+  render() {
+    return (
             <main className="project-detail pb-5">
                 <div className="project-detail-header">
                     <Title text="ECS" />
@@ -120,6 +120,6 @@ export default class EcsView extends React.Component {
                     <Paragraph text="Through this system, we pursue values not only for our user group but also for the patrons of the IT helpdesk. Our app helps the user group to have more enjoyable work experience by fulfilling their desires toward reducing repetitive tasks. Furthermore, the system will reduce the tedious handwriting task of the blue cards for patrons which needs to be done every time. Patrons will also be provided with better information about the performance of equipment and the circulating equipment demand in an intuitive way. Satisfied patrons will give positive feedback to the employees which will increase the satisfaction of the working experience for IT employees, especially the ones who seek the value of their work from helping others. To further streamline and improve the technology check-out process, our tablet app will be able to send reminder emails to students who have checked out equipment, which is a task not viable with the current paper system. This could help solve another problem that IT identified consistently throughout our research: communication." />
                 </div>
             </main>
-        )
-    }
+    );
+  }
 }
