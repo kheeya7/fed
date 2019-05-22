@@ -3,7 +3,98 @@
 .skills {
     margin-bottom: 0; 
     
-    p {
+    .skills-container {
+        height: auto;
         margin-bottom: 3em;
+
+        // .button-wrapper {
+        //     text-align: center;
+        // }
+       
+        .skill-left-panel,
+        .skill-right-panel {            
+            padding: 1.2em;
+            // border: 1px solid #999;
+        }
+
+        .skill-left-panel {
+            position: relative;
+            @media (max-width: 1199px) {
+                height: 14em;            
+            }
+            .project-link-wrap{
+                position: absolute;
+                margin-top: 10em;
+                @media (max-width: 576px) {
+                   margin-top: -1em;            
+                }
+                .project-link {
+                    color: #666;
+                    margin-right: .5em;
+                    font-size: 0.9em;
+                }
+            }
+            .skill-description{
+                height: 180px;
+            }      
+        }
+
+        .skill-tabs-hor {
+            padding: 0;
+            @media (min-width: 1199px) {
+                display: none;            
+            }
+        }
+
+        .skill-tabs-ver {
+            padding: 0;
+            @media (max-width: 1199px) {
+                display: none;            
+            } 
+        }
+    }
+
+    p {
+        margin-bottom: 1.5em;
+    }
+
+    .selected-Skill {
+        background-color: #00CC99;
+        color: white!important;
+        font-size: 0.8em;        
+    }
+
+    button {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        font-size: 0.7em;
+        color: #555!important;
+        width: 200px;
+        text-align: left;       
+        background-color: unset;
+        border: 0;
+        color: unset;
+        margin-left: 0;
+        padding-bottom: 0;
+        &:hover,
+        &:focus {
+            background-color: #00CC99;
+            color: white!important;
+            border: 0;
+            color: unset;
+            box-shadow: 0 0 0 0;
+        }
+        &:active {
+            background-color: unset!important;
+            box-shadow: 0 0 0 0!important;
+        }
+        @media (max-width: 1199px) {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-top-left-radius: 0.25rem;            
+        }
+        @media (max-width: 992px) {
+            width: 170px;
+        }
     }
 }
