@@ -1,6 +1,6 @@
 /* AboutView 
 ------------------------------------*/
-.about-view-container{
+.about-view-container {
 
   h1 {
     padding-bottom: 0.5em;
@@ -13,42 +13,48 @@
   }
 
   .about-wrapper {
-    background-color: @mainColor;    
+    padding-top: 7em;
+    background-color: @mainColor;
   }
 
   .about-main {
     width: 100%;
     background-color: @white;
   }
-  
+
   .about {
-      position: relative;
-      box-sizing: border-box;
-      width: 100%;
-      min-height: 200px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 200px;
   }
-  
+
   .profile {
     width: 100%;
     padding: 3.2em 0 3.2em;
+
     img {
       text-align: center;
     }
+
     .text {
       padding-top: 1em;
     }
+
     .logo {
       padding-bottom: 1.2em;
+
       img {
         padding-right: 1em;
       }
     }
+
     a {
       color: @pointColor;
+
       &:hover {
         color: darken(@pointColor, 10%);
       }
     }
-  } 
+  }
 }
-
