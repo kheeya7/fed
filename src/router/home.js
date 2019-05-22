@@ -11,8 +11,8 @@ export default class HomePageView extends React.PureComponent {
         return (
             <div >
                 <HeaderView />
-                <ExperienceView />
                 <PortfolioView />
+                <ExperienceView />
                 <SkillsView />
                 <WithmeView />
                 <SeparatorAbout />
