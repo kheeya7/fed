@@ -9,14 +9,14 @@ import SeparatorAbout from '../shared-components/separator-about';
 export default class HomePageView extends React.PureComponent {
   render() {
     return (
-            <div >
-                <HeaderView />
-                <ExperienceView />
-                <PortfolioView />
-                <SkillsView />
-                <WithmeView />
-                <SeparatorAbout />
-            </div>
+      <div >
+        <HeaderView />
+        <ExperienceView />
+        <PortfolioView />
+        <SkillsView />
+        <WithmeView />
+        <SeparatorAbout />
+      </div>
     );
   }
 }

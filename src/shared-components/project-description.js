@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 export function ProjectDescription(props) {
   return (
-        <h4 className="project-description">
-            {props.text}
-        </h4>
+    <h4 className="project-description">
+      {props.text}
+    </h4>
   );
 }
 

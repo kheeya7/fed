@@ -19,17 +19,17 @@ class App extends React.Component {
 
   render() {
     return (
-            <div className="page bg-main">
-                <NavView />
-                <Route path="/" exact={true} component={HomePageView} />
-                <Route path="/about" exact={true} component={AboutPageView} />
-                <Route path="/project-detail/unify" exact={true} component={UnifyPageView} />
-                <Route path="/project-detail/ecs" exact={true} component={EcsPageView} />
-                <Route path="/project-detail/stronger" exact={true} component={StrongerPageView} />
-                <Route path="/project-detail/pocket" exact={true} component={PocketPageView} />
-                <Route path="/project-detail/yuri" exact={true} component={YuriPageView} />
-                <FooterView />
-            </div>
+      <div className="page bg-main">
+        <NavView />
+        <Route path="/" exact={true} component={HomePageView} />
+        <Route path="/about" exact={true} component={AboutPageView} />
+        <Route path="/project-detail/unify" exact={true} component={UnifyPageView} />
+        <Route path="/project-detail/ecs" exact={true} component={EcsPageView} />
+        <Route path="/project-detail/stronger" exact={true} component={StrongerPageView} />
+        <Route path="/project-detail/pocket" exact={true} component={PocketPageView} />
+        <Route path="/project-detail/yuri" exact={true} component={YuriPageView} />
+        <FooterView />
+      </div>
     );
   }
 }

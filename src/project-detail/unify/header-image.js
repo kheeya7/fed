@@ -21,19 +21,19 @@ export class UnifyHeaderImage extends React.Component {
       maxHeight: '300px',
     };
     return (
-            <div style={UnifyHeaderImageBackground}>
-                <Row style={UnifyHeaderRowStyle}>
-                    <Col style={UnifyHeaderColStyle} xs={4} md={4}>
-                        <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-01.png" />
-                    </Col>
-                    <Col style={UnifyHeaderColStyle} xs={4} md={4}>
-                        <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-02.png" />
-                    </Col>
-                    <Col style={UnifyHeaderColStyle} xs={4} md={4}>
-                        <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-03.png" />
-                    </Col>
-                </Row>
-            </div>
+      <div style={UnifyHeaderImageBackground}>
+        <Row style={UnifyHeaderRowStyle}>
+          <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+            <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-01.png" />
+          </Col>
+          <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+            <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-02.png" />
+          </Col>
+          <Col style={UnifyHeaderColStyle} xs={4} md={4}>
+            <Image style={UnifyHeaderImageStyle} src="/images/unify-proto-03.png" />
+          </Col>
+        </Row>
+      </div>
     );
   }
 }

@@ -4,7 +4,11 @@
     "react"
   ],
   "rules": {
+    "react/jsx-filename-extension": [1, {
+      "extensions": [".js", ".jsx"]
+    }],
+    "max-len": 0,
     "linebreak-style": 0
   },
-  "extends": ["plugin:react/recommended", "airbnb-base"]
+  "extends": "airbnb"
 }

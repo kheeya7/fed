@@ -5,10 +5,10 @@ import SeparatorContact from '../shared-components/separator-contact';
 export default class AboutPageView extends React.PureComponent {
   render() {
     return (
-            <div>
-                <AboutView />
-                <SeparatorContact />
-            </div>
+      <div>
+        <AboutView />
+        <SeparatorContact />
+      </div>
     );
   }
 }

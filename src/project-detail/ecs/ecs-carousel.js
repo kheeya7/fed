@@ -33,63 +33,63 @@ export default class EcsCarousel extends React.Component {
     const { selectedIndex, direction } = this.state;
 
     return (
-            <div className="ecs-carousel">
-                <Carousel
-                    activeIndex={selectedIndex}
-                    direction={direction}
-                    onSelect={this.handleSelect}
-                    interval={null}
-                >
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-01.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-02.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-03.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-04.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-05.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-06.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-07.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-08.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-09.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-10.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-11.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-12.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-13.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-14.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-15.jpg"></Image>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <Image className="carousel-image" src="/images/ecs-proto-16.jpg"></Image>
-                    </Carousel.Item>
-                </Carousel>
-            </div>
+      <div className="ecs-carousel">
+        <Carousel
+          activeIndex={selectedIndex}
+          direction={direction}
+          onSelect={this.handleSelect}
+          interval={null}
+        >
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-01.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-02.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-03.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-04.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-05.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-06.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-07.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-08.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-09.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-10.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-11.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-12.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-13.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-14.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-15.jpg"></Image>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image className="carousel-image" src="/images/ecs-proto-16.jpg"></Image>
+          </Carousel.Item>
+        </Carousel>
+      </div>
     );
   }
 }

@@ -4,28 +4,28 @@ import { Image, Row, Col } from 'react-bootstrap';
 
 function ProjectSummaryItem(props) {
   return (
-        <div className="project-summary-item">
-            <Image src={props.imagePath}></Image>
-            <div className="project-summary-title">{props.title}</div>
-            <div className="project-summary-text">{props.description}</div>
-        </div>
+    <div className="project-summary-item">
+      <Image src={props.imagePath}></Image>
+      <div className="project-summary-title">{props.title}</div>
+      <div className="project-summary-text">{props.description}</div>
+    </div>
   );
 }
 
 export function ProjectSummary(props) {
   return (
-        <Row>
-            {
-                props.summaryData.map(summaryItemData => (
-                        <ProjectSummaryItem
-                            imagePath={summaryItemData.imagePath}
-                            title={summaryItemData.title}
-                            description={summaryItemData.description}
-                            key={summaryItemData.title}
-                        />
-                ))
-            }
-        </Row>
+    <Row>
+      {
+        props.summaryData.map(summaryItemData => (
+          <ProjectSummaryItem
+            imagePath={summaryItemData.imagePath}
+            title={summaryItemData.title}
+            description={summaryItemData.description}
+            key={summaryItemData.title}
+          />
+        ))
+      }
+    </Row>
   );
 }
 

@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 export default class Title extends React.Component {
   render() {
     return (
-            <h2 className="title">
-                {this.props.text}
-            </h2>
+      <h2 className="title">
+        {this.props.text}
+      </h2>
     );
   }
 }

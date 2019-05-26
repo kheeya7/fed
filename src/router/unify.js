@@ -5,10 +5,10 @@ import SeparatorContact from '../shared-components/separator-contact';
 export default class UnifyPageView extends React.PureComponent {
   render() {
     return (
-            <div>
-                <UnifyView />
-                <SeparatorContact />
-            </div>
+      <div>
+        <UnifyView />
+        <SeparatorContact />
+      </div>
     );
   }
 }
