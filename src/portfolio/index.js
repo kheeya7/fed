@@ -8,10 +8,11 @@ export default class PortfolioView extends React.PureComponent {
         return (
             <section className="pt-0">
                 <Container
-                    fluid
-                    className="portfolio-view-container"
+                    className="portfolio-view-container section-card-container"
                     id="portfolio">
-                    <h2 className="col-sm-6 hidden">Projects</h2>
+                    <h2>
+                        Projects
+                    </h2>
                     <Row className="pb-0">
                         {
                             projectData.map((data) => {

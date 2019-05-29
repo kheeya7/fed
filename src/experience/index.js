@@ -5,9 +5,9 @@ export default class ExperienceView extends React.PureComponent {
     render() {
         return (
             <section>
-                <Container className="experience-view-container">
+                <Container className="experience-view-container section-card-container">
                     <Row>
-                        <h2 className="experience-title mt-5">
+                        <h2 className="experience-title">
                             Experience
                         </h2>
                     </Row>
@@ -21,7 +21,7 @@ export default class ExperienceView extends React.PureComponent {
                                 src='./images/researcher.svg'
                                 className='experience-icon'
                                 alt="researcher icon" />
-                            <h3 className='experience-role mt-3'>
+                            <h3 className='experience-role'>
                                 UX Researcher &amp; Internship
                             </h3>
                             <div className='experience-description'>
