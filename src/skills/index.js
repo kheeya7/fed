@@ -118,7 +118,11 @@ export default class SkillsView extends React.Component {
                         {
                             skills[this.state.selectedIndex].relatedProjects.map((relatedProject) => {
                                 return (
-                                    <Link className="project-link" to={relatedProject.url}>
+                                    <Link
+                                        key={relatedProject.name}
+                                        className="project-link"
+                                        to={relatedProject.url}
+                                    >
                                         {
                                             relatedProject.name
                                         }
@@ -162,7 +166,7 @@ export default class SkillsView extends React.Component {
 
         return (
             <section className="pb-0">
-                <Container className="skills">
+                <Container className="skills section-card-container">
                     <Row>
                         <Col>
                             <h2>Skills</h2>
@@ -184,6 +188,7 @@ export default class SkillsView extends React.Component {
                                     skills.map((skill) => {
                                         return (
                                             <Button
+                                                key={skill.id}
                                                 id={skill.id}
                                                 className={skill.id === this.state.selectedIndex ? 'selected-Skill' : ''}
                                                 onClick={this.onSkillClicked} >
