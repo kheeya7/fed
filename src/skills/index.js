@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { CSSTransition } from 'react-transition-group'
 import { clearInterval } from 'timers';
 
 const skills = [
@@ -135,35 +136,35 @@ export default class SkillsView extends React.Component {
             )
         }
         const showSelectedSkillImage = () => {
-            switch (this.state.selectedIndex) {
-                case 0:
-                    return (
-                        <div>
-                            <img src={skills[0].image} />
-                        </div>
-
-                    )
-                case 1:
-                    return (
-                        <div>
-                            <img src={skills[1].image} />
-                        </div>
-                    )
-                case 2:
-                    return (
-                        <div>
-                            <img src={skills[2].image} />
-                        </div>
-                    )
-                case 3:
-                    return (
-                        <div>
-                            <img src={skills[3].image} />
-                        </div>
-                    )
-            }
+            return (
+                <div className="skill-images-container">
+                    <CSSTransition
+                        in={this.state.selectedIndex === 0}
+                        classNames="skill-image"
+                        timeout={1000}>
+                        <img src={skills[0].image} />
+                    </CSSTransition>
+                    <CSSTransition
+                        in={this.state.selectedIndex === 1}
+                        classNames="skill-image"
+                        timeout={1000}>
+                        <img src={skills[1].image} />
+                    </CSSTransition>
+                    <CSSTransition
+                        in={this.state.selectedIndex === 2}
+                        classNames="skill-image"
+                        timeout={1000}>
+                        <img src={skills[2].image} />
+                    </CSSTransition>
+                    <CSSTransition
+                        in={this.state.selectedIndex === 3}
+                        classNames="skill-image"
+                        timeout={1000}>
+                        <img src={skills[3].image} />
+                    </CSSTransition>
+                </div>
+            )
         }
-
         return (
             <section className="pb-0">
                 <Container className="skills section-card-container">
