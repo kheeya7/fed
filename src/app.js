@@ -20,6 +20,11 @@ class App extends React.Component {
     render() {
         return (
             <div className="page bg-main">
+                <div>
+                    <img
+                        className="main-background-image"
+                        src="http://katesohng.com/images/kate-home.svg" />
+                </div>
                 <NavView />
                 <Route path="/" exact={true} component={HomePageView} />
                 <Route path="/about" exact={true} component={AboutPageView} />

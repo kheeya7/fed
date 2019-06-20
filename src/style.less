@@ -30,6 +30,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Poppins', sans-serif !important;
   color: #333;
+  overflow-x: hidden; 
+  //overflow-y: hidden;
 }
 
 .page {
@@ -76,7 +78,7 @@ a {
 }
 
 section {
-  background-color: @white;
+  //background-color: @white;
   padding-bottom: 2em;
 
   .section-card-container {
@@ -117,6 +119,17 @@ section {
   }
 }
 
+.main-background-image {
+  position: absolute;
+  height: 600%;
+  width: auto;
+  max-width: none;
+  left: 50%;
+  top: -850px;
+  z-index: -2;
+  transform: translateX(calc(-50% + 100px));
+  -webkit-transform: translateX(calc(-50% + 100px));
+}
 
 /* Media Queries
 ------------------------------------*/
