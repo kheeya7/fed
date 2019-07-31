@@ -21,7 +21,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -30,20 +32,26 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Poppins', sans-serif !important;
   color: #333;
+  overflow-x: hidden;
+  //overflow-y: hidden;
 }
 
 .page {
   border-top: 2px solid @pointColor;
+  background-image: url("http://katesohng.com/images/kate-home.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-  font-size: 2.2em;  
+  font-size: 2.2em;
 }
 
 h2 {
   font-size: 1.4em;
   font-weight: 600;
-  font-family: 'Cambo', serif !important;  
+  font-family: 'Cambo', serif !important;
   color: @grey;
 }
 
@@ -65,8 +73,9 @@ a {
   font-size: @baseFontSize;
   text-decoration: none;
   color: @black;
+
   &:hover {
-    color: @pointColor;    
+    color: @pointColor;
   }
 }
 
@@ -76,14 +85,14 @@ a {
 }
 
 section {
-  background-color: @white;
+  //background-color: @white;
   padding-bottom: 2em;
 
   .section-card-container {
     background: #fff;
     border-radius: 8px;
     border: 1px solid #eceff1;
-    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60,64,67, .15);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
     margin: 0 auto 20px;
     max-width: 1280px;
     overflow: hidden;
@@ -91,7 +100,7 @@ section {
   }
 }
 
-.no-hor-padding { 
+.no-hor-padding {
   padding-left: 0;
   padding-right: 0;
 }
@@ -112,11 +121,23 @@ section {
   padding: 1em 1.5em;
   border: none;
   border-radius: 3em;
+
   &:hover {
     background-color: darken(@pointColor, 8%);
   }
 }
 
+// .main-background-image {
+//   position: absolute;
+//   height: 600%;
+//   width: auto;
+//   max-width: none;
+//   left: 50%;
+//   top: -850px;
+//   z-index: -2;
+//   transform: translateX(calc(-50% + 100px));
+//   -webkit-transform: translateX(calc(-50% + 100px));
+// }
 
 /* Media Queries
 ------------------------------------*/
@@ -130,6 +151,7 @@ section {
   h1 {
     font-size: 1.8em;
   }
+
   .btn-info {
     margin-top: 2em;
     padding: .8em 1.3em;

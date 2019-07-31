@@ -11,27 +11,27 @@ import NavView from '../src/navigation'
 import FooterView from '../src/footer'
 
 class App extends React.Component {
-    componentDidUpdate(prevProps) {
-        if (this.props.location.pathname !== prevProps.location.pathname) {
-            window.scrollTo(0, 0);
-        }
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0);
     }
+  }
 
-    render() {
-        return (
-            <div className="page bg-main">
-                <NavView />
-                <Route path="/" exact={true} component={HomePageView} />
-                <Route path="/about" exact={true} component={AboutPageView} />
-                <Route path="/project-detail/unify" exact={true} component={UnifyPageView} />
-                <Route path="/project-detail/ecs" exact={true} component={EcsPageView} />
-                <Route path="/project-detail/stronger" exact={true} component={StrongerPageView} />
-                <Route path="/project-detail/pocket" exact={true} component={PocketPageView} />
-                <Route path="/project-detail/yuri" exact={true} component={YuriPageView} />
-                <FooterView />
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="page bg-main">
+        <NavView />
+        <Route path="/" exact={true} component={HomePageView} />
+        <Route path="/about" exact={true} component={AboutPageView} />
+        <Route path="/project-detail/unify" exact={true} component={UnifyPageView} />
+        <Route path="/project-detail/ecs" exact={true} component={EcsPageView} />
+        <Route path="/project-detail/stronger" exact={true} component={StrongerPageView} />
+        <Route path="/project-detail/pocket" exact={true} component={PocketPageView} />
+        <Route path="/project-detail/yuri" exact={true} component={YuriPageView} />
+        <FooterView />
+      </div>
+    )
+  }
 }
 
 export default withRouter(App)
