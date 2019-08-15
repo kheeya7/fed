@@ -1,10 +1,16 @@
-import 'bootstrap'
-import './scss/app.scss'
-import './style.less'
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import App from './app'
+//import App from './app'
+
+const AppLazy = lazy(() => import('./app'));
+const App = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <AppLazy />
+    </Suspense>
+  )
+}
 
 ReactDOM.render(
   <BrowserRouter>
