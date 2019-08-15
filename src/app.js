@@ -1,12 +1,6 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import { Route, withRouter } from 'react-router-dom'
-import AboutPageView from './router/about'
 import HomePageView from './router/home'
-import UnifyPageView from './router/unify'
-import EcsPageView from './router/ecs'
-import StrongerPageView from './router/stronger'
-import PocketPageView from './router/pocket'
-import YuriPageView from './router/yuri'
 import NavView from '../src/navigation'
 import FooterView from '../src/footer'
 
@@ -18,6 +12,61 @@ class App extends React.Component {
   }
 
   render() {
+
+    const AboutPageViewLazy = lazy(() => import('./router/about'));
+    const AboutPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <AboutPageViewLazy />
+        </Suspense>
+      )
+    }
+
+    const UnifyPageViewLazy = lazy(() => import('./router/unify'));
+    const UnifyPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <UnifyPageViewLazy />
+        </Suspense>
+      )
+    }
+
+    const EcsPageViewLazy = lazy(() => import('./router/ecs'));
+    const EcsPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <EcsPageViewLazy />
+        </Suspense>
+      )
+    }
+
+    const StrongerPageViewLazy = lazy(() => import('./router/stronger'));
+    const StrongerPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <StrongerPageViewLazy />
+        </Suspense>
+      )
+    }
+
+    const PocketPageViewLazy = lazy(() => import('./router/pocket'));
+    const PocketPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <PocketPageViewLazy />
+        </Suspense>
+      )
+    }
+
+    const YuriPageViewLazy = lazy(() => import('./router/yuri'));
+    const YuriPageView = () => {
+      return (
+        <Suspense fallback={<div>Loading...</div>}>
+          <YuriPageViewLazy />
+        </Suspense>
+      )
+    }
+
     return (
       <div className="page bg-main">
         <NavView />
