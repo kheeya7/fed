@@ -1,8 +1,6 @@
 import 'bootstrap'
 import React, { lazy, Suspense } from 'react'
 import { Route, withRouter } from 'react-router-dom'
-import './scss/app.scss'
-import './style.less'
 import HomePageView from './router/home'
 import NavView from '../src/navigation'
 import FooterView from '../src/footer'
