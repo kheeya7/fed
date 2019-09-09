@@ -32,7 +32,7 @@ export default class FooterView extends React.PureComponent {
                                 <li className="list-item"><Link to="/">Home</Link></li>
                                 <li className="list-item"><Link to="/about">About</Link></li>
                                 <li className="list-item"><Link to="/">Portfolio</Link></li>
-                                <li className="list-item"><a href="http://katesohng.com/blog" target="_blank">Blog</a></li>
+                                {/* <li className="list-item"><a href="http://katesohng.com/blog" target="_blank">Blog</a></li> */}
                             </ul>
                         </div>
                         <div className="col-7 col-sm-7 col-md-3 col-md-2 mb-xs-40">
