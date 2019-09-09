@@ -66,12 +66,12 @@ export default class NavView extends React.PureComponent {
                             className="nav-item nav-link">
                             About
                         </Link>
-                        <a
+                        {/* <a
                             className="nav-item nav-link"
                             href="http://katesohng.com/blog"
                             target="_blank">
                             Blog
-                                </a>
+                                </a> */}
                         <a
                             className="nav-item nav-link"
                             href="mailto:kheeya7@hotmail.com">

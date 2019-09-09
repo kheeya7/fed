@@ -2,6 +2,7 @@ import 'bootstrap'
 import React, { lazy, Suspense } from 'react'
 import { Route, withRouter } from 'react-router-dom'
 import HomePageView from './router/home'
+import AboutPageView from './router/about'
 import NavView from '../src/navigation'
 import FooterView from '../src/footer'
 
@@ -14,19 +15,19 @@ class App extends React.Component {
 
   render() {
 
-    const AboutPageViewLazy = lazy(() => import('./router/about'));
-    const AboutPageView = () => {
-      return (
-        <Suspense fallback={<div>Loading...</div>}>
-          <AboutPageViewLazy />
-        </Suspense>
-      )
-    }
+    // const AboutPageViewLazy = lazy(() => import('./router/about'));
+    // const AboutPageView = () => {
+    //   return (
+    //     <Suspense fallback={<div></div>}>
+    //       <AboutPageViewLazy />
+    //     </Suspense>
+    //   )
+    // }
 
     const UnifyPageViewLazy = lazy(() => import('./router/unify'));
     const UnifyPageView = () => {
       return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <UnifyPageViewLazy />
         </Suspense>
       )
@@ -35,7 +36,7 @@ class App extends React.Component {
     const EcsPageViewLazy = lazy(() => import('./router/ecs'));
     const EcsPageView = () => {
       return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <EcsPageViewLazy />
         </Suspense>
       )
@@ -44,7 +45,7 @@ class App extends React.Component {
     const StrongerPageViewLazy = lazy(() => import('./router/stronger'));
     const StrongerPageView = () => {
       return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <StrongerPageViewLazy />
         </Suspense>
       )
@@ -53,7 +54,7 @@ class App extends React.Component {
     const PocketPageViewLazy = lazy(() => import('./router/pocket'));
     const PocketPageView = () => {
       return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <PocketPageViewLazy />
         </Suspense>
       )
@@ -62,7 +63,7 @@ class App extends React.Component {
     const YuriPageViewLazy = lazy(() => import('./router/yuri'));
     const YuriPageView = () => {
       return (
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div></div>}>
           <YuriPageViewLazy />
         </Suspense>
       )
