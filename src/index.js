@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 // import './scss/app.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './style.less'
+import './style.less';
+import App from './app';
 
 var loadingContainer = document.querySelector(".loading-container");
 
