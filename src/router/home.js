@@ -6,17 +6,17 @@ import SkillsView from '../skills'
 import WithmeView from '../withme'
 import SeparatorAbout from '../shared-components/separator-about'
 
-export default class HomePageView extends React.PureComponent {
-    render() {
-        return (
-            <div >
-                <HeaderView />
-                <PortfolioView />
-                <ExperienceView />
-                <SkillsView />
-                <WithmeView />
-                <SeparatorAbout />
-            </div>
-        )
-    }
+const HomePageView = () => {
+    return (
+        <div >
+            <HeaderView />
+            <PortfolioView />
+            <ExperienceView />
+            <SkillsView />
+            <WithmeView />
+            <SeparatorAbout />
+        </div>
+    );
 }
+
+export default HomePageView;

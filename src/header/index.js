@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Scrollchor from 'react-scrollchor'
+import { Scrollchor } from 'react-scrollchor'
 
 export default class HeaderView extends React.PureComponent {
     render() {

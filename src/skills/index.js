@@ -238,6 +238,7 @@ export default class SkillsView extends React.Component {
                                         return (
                                             <Button
                                                 id={skill.id}
+                                                key={skill.id}
                                                 className={skill.id === this.state.selectedIndex ? 'selected-Skill' : ''}
                                                 onClick={this.onSkillClicked} >
                                                 <h3>{skill.title}</h3>
