@@ -9,8 +9,12 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
-        publicPath: '/',
+        static: {
+            directory: path.resolve(__dirname, 'dist'),
+        },
+        devMiddleware: {
+            publicPath: '/',
+        },
         historyApiFallback: true,
     },
     module: {
@@ -80,6 +84,9 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['*', '.js', '.jsx']
+        extensions: ['.js', '.jsx'],
+        fallback: {
+            timers: require.resolve('timers-browserify')
+        }
     },
 };
